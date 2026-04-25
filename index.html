@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SK가스 투자포트폴리오</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">SK가스</div>
+      <h1>투자포트폴리오 현황</h1>
+      <span id="total-count" class="total-count"></span>
+    </div>
+    <div class="header-right">
+      <div class="filter-group">
+        <button class="filter-btn active" data-filter="전체">전체</button>
+        <button class="filter-btn" data-filter="보유">보유 P/F</button>
+        <button class="filter-btn" data-filter="Exit">Exit P/F</button>
+      </div>
+      <input type="text" id="search-input" class="search-input" placeholder="🔍 회사명 검색">
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <div class="sector-grid" id="sector-grid"></div>
+    <div class="empty-msg" id="empty-msg" style="display:none">검색 결과가 없습니다.</div>
+  </main>
+
+  <div class="panel-overlay" id="panel-overlay"></div>
+  <aside class="detail-panel" id="detail-panel">
+    <button class="panel-close" id="panel-close">✕</button>
+    <div class="panel-content" id="panel-content"></div>
+  </aside>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
