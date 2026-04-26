@@ -1,7 +1,8 @@
 {
   "meta": {
-    "total": 46,
-    "as_of": "2025-08",
+    "total": 47,
+    "equity_ratio_as_of": "2026-04 (보통주 기준)",
+    "book_value_as_of": "2025-12 (연결 장부가액 기준)",
     "unit": "억원",
     "last_updated": "2026-04-26"
   },
@@ -21,7 +22,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "sk-gas-usa",
@@ -38,7 +39,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "sk-gas-trading",
@@ -55,7 +56,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "sk-gas-intl",
@@ -72,7 +73,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "sk-gas-petrochem",
@@ -89,7 +90,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "apoc",
@@ -103,10 +104,10 @@
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2029,
-      "exit_status": "실행 중",
+      "exit_status": "Exit 완료",
       "exit_pending_reason": null,
       "recent_issues": "26.3 부동산 매각 완료",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "vopak",
@@ -123,7 +124,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "대주주(Vopak)와의 의존 필요, 3차 매각 어려움",
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "sk-intl-inv-sg",
@@ -140,7 +141,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "SKEP 주도로 청산작업 진행 중",
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "wonil-energy",
@@ -148,7 +149,7 @@
       "sector": "LPG",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 23.25,
+      "book_value": 23.50,
       "equity_ratio": 29.0,
       "investment_date": null,
       "strategy": "보유",
@@ -157,7 +158,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": "LPG 충전소 법인, 최근 판매량 증가하며 지분 보유 가치 존재",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "g-energy",
@@ -165,7 +166,7 @@
       "sector": "LPG",
       "type": "국내계열사",
       "parent_id": null,
-      "book_value": 5.82,
+      "book_value": 6.32,
       "equity_ratio": 50.0,
       "investment_date": null,
       "strategy": "보유",
@@ -174,7 +175,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "korea-energy-terminal",
@@ -182,8 +183,8 @@
       "sector": "LNG",
       "type": "해외계열사",
       "parent_id": null,
-      "book_value": 1209.43,
-      "equity_ratio": 47.58,
+      "book_value": 1235.46,
+      "equity_ratio": 47.6,
       "investment_date": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -191,7 +192,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "kd-ecohub",
@@ -199,7 +200,7 @@
       "sector": "LNG",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 18.85,
+      "book_value": 23.87,
       "equity_ratio": 40.0,
       "investment_date": null,
       "strategy": "보유",
@@ -208,7 +209,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "ecomarine",
@@ -225,7 +226,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "ulsan-gps",
@@ -242,7 +243,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "goseong-green",
@@ -250,7 +251,7 @@
       "sector": "발전",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 2009.0,
+      "book_value": 2066.73,
       "equity_ratio": 19.0,
       "investment_date": null,
       "strategy": "보유",
@@ -259,7 +260,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "gridflex-inc",
@@ -276,7 +277,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": "대주주 요구와 리스크 분산 필요성으로 계열사 감축 어려움",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "gridflex-storage",
@@ -293,7 +294,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "sa-grid-solutions",
@@ -301,7 +302,7 @@
       "sector": "발전",
       "type": "해외계열사",
       "parent_id": "gridflex-inc",
-      "book_value": 1115.0,
+      "book_value": 1209.11,
       "equity_ratio": 60.0,
       "investment_date": null,
       "strategy": "보유",
@@ -310,7 +311,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "raven-storage",
@@ -327,7 +328,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "gk-storage-pledgor",
@@ -344,7 +345,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "gks-holdco2",
@@ -361,7 +362,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "gks-holdco1",
@@ -378,7 +379,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "great-kiskadee",
@@ -395,7 +396,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "bitgoeul",
@@ -403,7 +404,7 @@
       "sector": "발전",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 79.73,
+      "book_value": 78.27,
       "equity_ratio": 29.0,
       "investment_date": null,
       "strategy": "보유",
@@ -412,7 +413,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "enechange",
@@ -429,7 +430,7 @@
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
       "recent_issues": "25.12 Exit 완료 (7억원 투자 / 6.2억원 매도)",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "optimitive",
@@ -438,7 +439,7 @@
       "type": "기타지분",
       "parent_id": "sk-gas-usa",
       "book_value": null,
-      "equity_ratio": 7.07,
+      "equity_ratio": 0.0,
       "investment_date": null,
       "strategy": "Exit",
       "rebalancing_target": true,
@@ -446,7 +447,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
       "recent_issues": "스페인 스타트업, 투자금 전액 손실 처리, Exit 추진 중 (Exit 가능성 Very Low)",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "carbon-lighthouse",
@@ -463,7 +464,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
       "recent_issues": "빌딩 에너지효율화 솔루션 USA 스타트업, Exit 추진 중 (Exit 가능성 Very Low)",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "metron",
@@ -480,7 +481,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
       "recent_issues": "AI기반 공장 에너지효율화 SW 프랑스 스타트업, 재무 개선 시 구주 매각 형태로 Exit 추진 (Exit 가능성 Very Low)",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "dangjin-ecopower",
@@ -488,8 +489,8 @@
       "sector": "신재생",
       "type": "국내계열사",
       "parent_id": null,
-      "book_value": 518.87,
-      "equity_ratio": 54.87,
+      "book_value": 520.91,
+      "equity_ratio": 66.0,
       "investment_date": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -497,7 +498,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "lotte-sk-enerute",
@@ -505,8 +506,8 @@
       "sector": "신재생",
       "type": "국내계열사",
       "parent_id": null,
-      "book_value": 467.04,
-      "equity_ratio": 45.0,
+      "book_value": 470.40,
+      "equity_ratio": 50.0,
       "investment_date": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -514,7 +515,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "ulsan-enerute2",
@@ -523,7 +524,7 @@
       "type": "국내계열사",
       "parent_id": "lotte-sk-enerute",
       "book_value": 467.0,
-      "equity_ratio": 45.0,
+      "equity_ratio": 50.0,
       "investment_date": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -531,7 +532,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "ulsan-enerute3",
@@ -547,8 +548,8 @@
       "exit_target_year": 2025,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "25년 Exit 완료",
-      "last_updated": "2025-08"
+      "recent_issues": "25.11 사업 양도 후 청산 완료",
+      "last_updated": "2026-04-26"
     },
     {
       "id": "taehwa-enerute1",
@@ -564,8 +565,8 @@
       "exit_target_year": 2025,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "25년 Exit 완료",
-      "last_updated": "2025-08"
+      "recent_issues": "25.11 사업 양도 후 청산 완료",
+      "last_updated": "2026-04-26"
     },
     {
       "id": "taehwa-enerute2",
@@ -578,11 +579,11 @@
       "investment_date": null,
       "strategy": "Exit",
       "rebalancing_target": true,
-      "exit_target_year": null,
-      "exit_status": "실행 중",
+      "exit_target_year": 2025,
+      "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "합병 방식으로 25.4Q 내 Exit 추진 중",
-      "last_updated": "2025-08"
+      "recent_issues": "25.11 사업 양도 후 청산 완료",
+      "last_updated": "2026-04-26"
     },
     {
       "id": "graphitic-energy",
@@ -591,7 +592,7 @@
       "type": "기타지분",
       "parent_id": "sk-gas-usa",
       "book_value": 249.09,
-      "equity_ratio": 14.1,
+      "equity_ratio": 11.1,
       "investment_date": null,
       "strategy": "Exit",
       "rebalancing_target": true,
@@ -599,7 +600,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": null,
       "recent_issues": "청산 절차 진행 중",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "kohygen",
@@ -607,8 +608,8 @@
       "sector": "신재생",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 14.58,
-      "equity_ratio": 5.25,
+      "book_value": 11.92,
+      "equity_ratio": 5.3,
       "investment_date": null,
       "strategy": "Exit",
       "rebalancing_target": true,
@@ -616,7 +617,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "수소시장 본격 개화 지연으로 인수의향자 부재",
       "recent_issues": "수소시장 본격 개화 시점에 현대차 대상 지분 매각 시도 예정 (Exit 가능성 Low)",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "hyliom-rcps",
@@ -633,7 +634,24 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "25년 기술특례상장 추진 → Drop",
       "recent_issues": "상장 재추진 예정이나 시점 미정",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
+    },
+    {
+      "id": "gridwiz",
+      "name": "그리드위즈",
+      "sector": "신재생",
+      "type": "기타지분",
+      "parent_id": null,
+      "book_value": 316.39,
+      "equity_ratio": 20.8,
+      "investment_date": null,
+      "strategy": "보유",
+      "rebalancing_target": false,
+      "exit_target_year": null,
+      "exit_status": null,
+      "exit_pending_reason": null,
+      "recent_issues": null,
+      "last_updated": "2026-04-26"
     },
     {
       "id": "eurasia-tunnel",
@@ -641,7 +659,7 @@
       "sector": "기타",
       "type": "해외계열사",
       "parent_id": null,
-      "book_value": 1437.8,
+      "book_value": 2338.84,
       "equity_ratio": 36.5,
       "investment_date": null,
       "strategy": "Exit",
@@ -650,7 +668,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": null,
       "recent_issues": "SK Holdco Pte. Ltd를 통한 간접 보유, 29년부터 재매각 추진 계획(Tapping)",
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "kobus-finance",
@@ -658,7 +676,7 @@
       "sector": "기타",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 45.3,
+      "book_value": 52.15,
       "equity_ratio": 10.3,
       "investment_date": null,
       "strategy": "보유",
@@ -667,7 +685,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "hanil-cement",
@@ -675,7 +693,7 @@
       "sector": "기타",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 34.1,
+      "book_value": 32.95,
       "equity_ratio": 0.3,
       "investment_date": null,
       "strategy": "보유",
@@ -684,7 +702,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "hanil-holdings",
@@ -692,7 +710,7 @@
       "sector": "기타",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 14.3,
+      "book_value": 13.18,
       "equity_ratio": 0.3,
       "investment_date": null,
       "strategy": "보유",
@@ -701,7 +719,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "sk-tic",
@@ -709,7 +727,7 @@
       "sector": "기타",
       "type": "기타지분",
       "parent_id": null,
-      "book_value": 11.5,
+      "book_value": 11.10,
       "equity_ratio": 1.62,
       "investment_date": null,
       "strategy": "보유",
@@ -718,7 +736,7 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "konatus-cps",
@@ -731,11 +749,11 @@
       "investment_date": null,
       "strategy": "Exit",
       "rebalancing_target": true,
-      "exit_target_year": 2029,
-      "exit_status": "매각 예정",
-      "exit_pending_reason": "상환청구권 부재로 구주 매각이 유일한 방안이나 인수의향자 부재",
-      "recent_issues": "택시·대리기사 호출 플랫폼, 5개년 연속 영업적자, 수익개선 제한적 (Exit 가능성 Very Low)",
-      "last_updated": "2025-08"
+      "exit_target_year": 2026,
+      "exit_status": "Exit 완료",
+      "exit_pending_reason": null,
+      "recent_issues": "26.3 Exit 완료 (10억원 투자 / 10억원 매도)",
+      "last_updated": "2026-04-26"
     },
     {
       "id": "schoolbus-rcps",
@@ -752,7 +770,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "25년 기술특례상장 추진 → Drop, 상장 재추진 예정이나 시점 미정",
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     },
     {
       "id": "npg-association",
@@ -763,13 +781,13 @@
       "book_value": 0.7,
       "equity_ratio": 50.0,
       "investment_date": null,
-      "strategy": "Exit",
-      "rebalancing_target": true,
-      "exit_target_year": 2026,
-      "exit_status": "Exit 완료",
+      "strategy": "보유",
+      "rebalancing_target": false,
+      "exit_target_year": null,
+      "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "26.3 Exit 완료 (10억원 투자 / 10억원 매도)",
-      "last_updated": "2025-08"
+      "recent_issues": null,
+      "last_updated": "2026-04-26"
     },
     {
       "id": "jinmobility",
@@ -786,7 +804,7 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "법인 파산 절차 중, 당사는 채무자 지위",
       "recent_issues": null,
-      "last_updated": "2025-08"
+      "last_updated": "2026-04-26"
     }
   ]
 }

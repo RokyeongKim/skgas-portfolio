@@ -22,6 +22,9 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 .header-left { display: flex; align-items: center; gap: 12px; }
+.header-title { display: flex; flex-direction: column; gap: 1px; }
+.title-row { display: flex; align-items: center; gap: 6px; }
+.data-basis { font-size: 10px; color: #aaa; letter-spacing: 0.1px; }
 .logo {
   background: #003087;
   color: #fff;
