@@ -237,6 +237,16 @@ body {
   text-transform: uppercase; letter-spacing: 0.8px;
   margin: 18px 0 8px;
 }
+.panel-description {
+  background: #f0f4ff;
+  border-radius: 6px;
+  padding: 11px 13px;
+  font-size: 12px;
+  line-height: 1.75;
+  color: #333;
+  border-left: 3px solid #1565c0;
+}
+
 .panel-issues {
   background: #f8f9fa;
   border-radius: 6px;

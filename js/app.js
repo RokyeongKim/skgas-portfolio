@@ -141,6 +141,11 @@ function openPanel(id) {
     ${c.exit_pending_reason ? `<tr><th>미실행 사유</th><td>${c.exit_pending_reason}</td></tr>` : ''}
   ` : '';
 
+  const descriptionHtml = c.description ? `
+    <p class="panel-section-title">사업 개요</p>
+    <div class="panel-description">${c.description}</div>
+  ` : '';
+
   const issuesHtml = c.recent_issues ? `
     <p class="panel-section-title">최근 이슈</p>
     <div class="panel-issues">${c.recent_issues}</div>
@@ -164,6 +169,7 @@ function openPanel(id) {
       <tr><th>Rebalancing</th><td>${c.rebalancing_target ? 'Y' : 'N'}</td></tr>
       ${exitRows}
     </table>
+    ${descriptionHtml}
     ${issuesHtml}
     <p class="panel-updated">최종 업데이트: ${c.last_updated || '-'}</p>
   `;
