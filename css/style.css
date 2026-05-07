@@ -165,7 +165,7 @@ body {
 }
 .badge-hold        { background: #e3f2fd; color: #1565c0; }
 .badge-exit        { background: #fce4ec; color: #b71c1c; }
-.badge-exit-done   { background: #e8f5e9; color: #1b5e20; }
+.badge-exit-done   { background: #e0e0e0; color: #212121; }
 .badge-exit-active { background: #fff8e1; color: #e65100; }
 
 /* === 상세 패널 === */
