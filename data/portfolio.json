@@ -4,7 +4,7 @@
     "equity_ratio_as_of": "2026-04 (보통주 기준)",
     "book_value_as_of": "2025-12 (연결 장부가액 기준)",
     "unit": "억원",
-    "last_updated": "2026-05-07",
+    "last_updated": "2026-05-13",
     "minor_holdings": [
       {
         "name": "I.net",
@@ -28,22 +28,29 @@
       "type": "국내계열사",
       "parent_id": null,
       "book_value": 763.87,
-      "equity_ratio": 45.0,
+      "equity_ratio": 100.0,
       "investment_date": "2011~",
       "invested_amount": null,
       "location": "울산광역시",
       "website": null,
-      "bod_participation": "SK가스 3석 / AGIC 2석 / PIC 2석 (감사 SKG 1석)",
-      "investment_purpose": "LPG(프로판) 탈수소화(PDH)를 통한 프로필렌 생산. LPG 판매 확대 및 가스화학 밸류체인 강화 목적. 총 투자비 9,702억 (D:E=6:4).",
+      "bod_participation": null,
+      "bod": [
+        {"role": "대표이사", "name": "김철진"},
+        {"role": "이사", "name": "손철승"},
+        {"role": "이사", "name": "홍종범"},
+        {"role": "감사", "name": "최이룩"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "PDH(프로판 탈수소화) 사업을 영위하는 SK가스 관계기업. 프로판을 원료로 프로필렌을 생산. 총 투자비 9,702억 (D:E=6:4). AGIC의 SKA 지분 Exit 완료('26.4)."
+      "recent_issues": "정상화·구조개편 위한 당사 노력에도 중동주주(AGIC·PIC)와의 견해 차이로 의사결정·실행 지연. 증자·영구채·신용보강 등 유동성 대응·EOD 방지 대책에 미동의. 지배구조 Controllability 확보를 위해 AGIC·PIC 지분 인수 결정. PIC '26.2 Exit, AGIC '26.4 Exit → SK가스 100%.",
+      "last_updated": "2026-05-13",
+      "description": "PDH(프로판 탈수소화)를 통한 프로필렌 생산. 총 투자비 9,702억 (D:E=6:4). '26.4 중동주주(AGIC·PIC) 지분 전량 인수로 SK가스 100% 전환.\n※ UPP(울산PP, 자회사): SKA 50%-1주 + PMC(폴리미래, DL케미칼 50%·LYB 50%) 50%+1주. UPP BOD: 이사 손철승, 김철진."
     },
     {
       "id": "sk-gas-usa",
@@ -58,7 +65,13 @@
       "location": "미국 텍사스주",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "해외 투자 플랫폼(SKGU). Carbon Lighthouse, Metron, Optimitive, Graphitic Energy 등 미국·유럽 에너지 스타트업 투자 및 해외 신사업 거점.",
+      "bod": [
+        {"role": "이사", "name": "최이룩"},
+        {"role": "이사", "name": "손철승"},
+        {"role": "이사", "name": "안동순"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -66,8 +79,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "SK가스의 해외법인 및 투자 플랫폼(SKGU). Carbon Lighthouse, Metron, Optimitive, Graphitic Energy 등 해외 투자사의 상위 지주 역할을 수행."
+      "last_updated": "2026-05-13",
+      "description": "SK가스의 해외법인 및 투자 플랫폼(SKGU). Carbon Lighthouse, Metron, Optimitive, Graphitic Energy 등 미국·유럽 에너지 스타트업 투자사의 상위 지주 역할."
     },
     {
       "id": "sk-gas-trading",
@@ -82,7 +95,9 @@
       "location": "미국 텍사스주",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "글로벌 LPG 트레이딩 전담 법인.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -90,8 +105,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "SK Gas Trading LLC. SK Gas USA의 자회사로 글로벌 LPG 트레이딩을 전담."
+      "last_updated": "2026-05-13",
+      "description": "SK Gas USA의 자회사로 글로벌 LPG 트레이딩을 전담."
     },
     {
       "id": "sk-gas-intl",
@@ -106,7 +121,13 @@
       "location": "싱가포르",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "글로벌 에너지 트레이딩 및 투자, 해외 신사업 담당. APOC JV 등 해외 석유화학 투자 주도.",
+      "bod": [
+        {"role": "이사", "name": "이상곤"},
+        {"role": "이사", "name": "최이룩"},
+        {"role": "이사", "name": "손철승"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -114,8 +135,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "SK Gas International(SKGI). SK가스의 싱가포르 현지법인으로 글로벌 에너지 트레이딩 및 투자, 해외 신사업을 담당. APOC JV 등 해외 석유화학 투자 주도."
+      "last_updated": "2026-05-13",
+      "description": "SK가스의 싱가포르 현지법인(SKGI). 글로벌 에너지 트레이딩 및 투자, 해외 신사업 담당. APOC JV 등 해외 석유화학 투자 주도."
     },
     {
       "id": "sk-gas-petrochem",
@@ -130,7 +151,13 @@
       "location": "싱가포르",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "APOC JV에 투자하기 위한 SPC. SKG→SKGI→SKGP 경로로 출자.",
+      "bod": [
+        {"role": "이사", "name": "김철진"},
+        {"role": "이사", "name": "손철승"},
+        {"role": "이사", "name": "김유진"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -138,8 +165,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "SKGP(SK Gas Petrochemical). 싱가포르에 설립된 SK가스의 해외 투자법인. APOC JV에 투자하여 자본을 출자. SKGI 산하 법인."
+      "last_updated": "2026-05-13",
+      "description": "APOC JV에 투자하기 위한 SPC(SKGP). SKG→SKGI→SKGP 경로로 출자."
     },
     {
       "id": "apoc",
@@ -153,17 +180,22 @@
       "invested_amount": 1244,
       "location": "사우디아라비아 주베일(Jubail)",
       "website": null,
-      "bod_participation": "SK가스 2석 / AGIC(사우디) 4석",
-      "investment_purpose": "사우디 주베일 PDH/PP/IPA 통합 플랜트 투자. 프로판 수요 창출 및 석유화학 다운스트림 진출. 총투자비 $2,936M (D:E=70:30). 당사 투자비 약 $102.6M(약 1,244억).",
-      "exit_plan": "AGIC Put 행사로 '26.3 Exit 완료 (부동산 매각 포함). 공시 완료.",
-      "strategy": "Exit",
-      "rebalancing_target": true,
-      "exit_target_year": 2026,
-      "exit_status": "Exit 완료",
+      "bod_participation": null,
+      "bod": [
+        {"role": "이사", "name": "김규웅"},
+        {"role": "이사", "name": "김철진"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": "SKGP 15% : AGIC(사우디) 85%",
+      "exit_plan": null,
+      "strategy": "보유",
+      "rebalancing_target": false,
+      "exit_target_year": null,
+      "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "26.3 AGIC Exit 및 부동산 매각 완료. 투자금액 변경 관련 불성실 지정 없이 공시 종결.",
-      "last_updated": "2026-05-07",
-      "description": "사우디 현지에 설립된 합작법인(JV). 사우디 주베일(Jubail)에 PDH, PP, IPA 공장을 건설·운영하는 주체. SKGP : AGIC = 15 : 85. BOD APC 4석/SK가스 2석. '21년 $60M, '22년 $42M 출자 (합계 약 $103M, 약 1,244억원)."
+      "recent_issues": "'26.3 AGIC Exit 및 부동산 매각 완료. 투자금액 변경 공시 종결.",
+      "last_updated": "2026-05-13",
+      "description": "사우디 주베일(Jubail)에 PDH·PP·IPA 공장을 건설·운영하는 합작법인(JV). BOD AGIC 4석/SK가스 2석. '21년 $60M, '22년 $42M 출자 (합계 약 $103M, 약 1,244억원)."
     },
     {
       "id": "vopak",
@@ -178,16 +210,18 @@
       "location": "울산광역시 (Vopak Terminal Korea)",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "글로벌 Vopak과 협력하여 국내 대형 액체화물 저장 터미널 운영. LPG·석유화학 저장 및 물류 서비스.",
-      "exit_plan": "Vopak(대주주)과 협의 후 지분 매각 추진 예정. 대주주 의존으로 매각 어려움.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": "Vopak 80%, SK가스 20%",
+      "exit_plan": "Vopak(대주주)과 협의 후 지분 매각 추진. 대주주 의존으로 매각 어려움.",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
-      "exit_pending_reason": "대주주(Vopak)와의 협의 필요, 3차 매각 어려움",
-      "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "Vopak Gas Terminal Korea. 네덜란드 기반 글로벌 저장탱크 운영사 Vopak과 SK가스가 합작한 국내 최대 액체 화물 저장 터미널 운영사. 울산 등에서 석유화학제품 저장 및 물류 서비스 제공."
+      "exit_pending_reason": "대주주(Vopak)와의 협의 필요",
+      "recent_issues": "Vopak이 '25년 4분기 한국 터미널 사업 매각 완료(EUR 15M 손실 기록). SK가스 보유 20% 지분 처리 여부 별도 확인 필요.",
+      "last_updated": "2026-05-13",
+      "description": "글로벌 저장탱크 운영사 Vopak과 SK가스의 합작 국내 최대 액체화물 저장 터미널. 석유화학제품 저장·물류 서비스 제공."
     },
     {
       "id": "sk-intl-inv-sg",
@@ -202,7 +236,9 @@
       "location": "싱가포르 주롱섬",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "싱가포르 주롱섬 400만톤 규모 석유화학공장(JAC) 건설 투자. SK건설 소송 진행 중.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": "SKEP 주도로 청산작업 진행 중. SK건설 소송 종결 전까지 Wait&See.",
       "strategy": "Exit",
       "rebalancing_target": true,
@@ -210,8 +246,8 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": "SKEP 주도로 청산작업 진행 중",
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "SKIIS(SK International Investment Singapore). 싱가포르 주롱섬에 400만톤 규모 대형 석유화학공장(JAC) 건설에 투자. SK건설 소송 진행 중으로 소송 종결 전까지 Wait&See."
+      "last_updated": "2026-05-13",
+      "description": "SKIIS. 싱가포르 주롱섬 400만톤 규모 석유화학공장(JAC) 건설 투자. SK건설 소송 진행 중으로 소송 종결 전까지 Wait&See."
     },
     {
       "id": "wonil-energy",
@@ -226,16 +262,18 @@
       "location": "경기도 고양시(일산)",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "LPG 충전소 법인 지분투자. LPG 판매처 확보 및 판매량 증대.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "LPG 충전소 법인, 최근 판매량 증가하며 지분 보유 가치 존재",
-      "last_updated": "2026-05-07",
-      "description": "원일에너지. 고양시(일산) 소재 LPG 충전소 법인. 고속도로 주유소·충전소·편의점·석유류 판매 및 휴게소 운영 등을 영위하는 중소기업."
+      "recent_issues": null,
+      "last_updated": "2026-05-13",
+      "description": "고양시(일산) 소재 LPG 충전소 법인. 고속도로 주유소·충전소·편의점·석유류 판매 및 휴게소 운영."
     },
     {
       "id": "g-energy",
@@ -250,7 +288,13 @@
       "location": "경남 고성군",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "고성그린파워(GGP) 연료(석탄) 소싱 전담 법인. GGP 연료비 조달 역할.",
+      "bod": [
+        {"role": "이사", "name": "길호문"},
+        {"role": "이사", "name": "어원석"},
+        {"role": "감사", "name": "이정은"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": "GGP와 연동 구조로 단독 매각 어려움.",
       "strategy": "보유",
       "rebalancing_target": false,
@@ -258,8 +302,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "지에너지. 고성그린파워(GGP)에서 사용하는 석탄을 소싱하는 회사. GGP 연료비 조달 역할을 담당하며, GGP가 적자일 때 지에너지가 보완하는 구조이므로 단독 매각 어려움."
+      "last_updated": "2026-05-13",
+      "description": "고성그린파워(GGP) 연료(석탄) 소싱 전담 법인. GGP가 적자일 때 지에너지가 보완하는 구조로 단독 매각 어려움."
     },
     {
       "id": "korea-energy-terminal",
@@ -274,15 +318,21 @@
       "location": "울산광역시 북항",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "LNG 도입·저장·하역·송출 복합 에너지 터미널 확보. SK가스 LNG 사업의 핵심 인프라. '18년부터 단계별 투자 진행.",
-      "exit_plan": "전략적 보유 자산 (매각 계획 없음).",
+      "bod": [
+        {"role": "부사장", "name": "이성모"},
+        {"role": "이사", "name": "김준형"},
+        {"role": "이사", "name": "길호문"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": null,
-      "last_updated": "2026-05-07",
+      "recent_issues": "'24.11 상업운전 개시. 440만배럴 탱크터미널 대여 계약 완료. '26년 LNG저장탱크 추가 완공 시 575만배럴로 확장 예정(LNG+LPG 복합 에너지 허브). <a href='https://www.moneys.co.kr/article/2025110116541885442' target='_blank' rel='noopener'>머니S: 에너지 허브로 진화한 KET</a> | <a href='https://zdnet.co.kr/view/?no=20250327141407' target='_blank' rel='noopener'>ZDNet: SK가스 LNG 야심</a>",
+      "last_updated": "2026-05-13",
       "description": "KET(코리아에너지터미널). 석유제품(납사·휘발유·경유 등)과 LNG를 동시에 입출하·저장·하역·송출할 수 있는 대규모 복합 에너지 터미널. 울산 북항 소재. 기 투자금 약 2,232억원."
     },
     {
@@ -298,7 +348,12 @@
       "location": "울산광역시",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "경동도시가스와 합작. KET에서 공급되는 LNG 배관망 유지·관리. 울산 북항 LNG터미널~산업단지 천연가스 배관망 O&M.",
+      "bod": [
+        {"role": "이사", "name": "권태신"},
+        {"role": "이사", "name": "길호문"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "pipeline_structure": {
         "legend": [
@@ -327,8 +382,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "케이디에코허브. 경동도시가스와 합작으로 설립된 LNG 배관 O&M 투자회사. KET에서 공급되는 배관을 전체적으로 관리하며, 울산 북항 LNG터미널~산업단지 천연가스 배관망 유지·관리."
+      "last_updated": "2026-05-13",
+      "description": "경동도시가스와 합작 설립된 LNG 배관 O&M 투자회사. 울산 북항 LNG터미널~산업단지 천연가스 배관망 유지·관리."
     },
     {
       "id": "ecomarine",
@@ -343,7 +398,11 @@
       "location": "울산광역시",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "LNG 벙커링 전문 자회사 설립. KET에서 LNG 조달해 친환경 선박에 연료 공급. 2027년 COD 목표.",
+      "bod": [
+        {"role": "이사", "name": "홍종범"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -351,8 +410,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "에코마린퓨얼솔루션(EMFS). SK가스 벙커링 자회사. KET에서 LNG를 조달해 LNG 연료 추진 친환경 선박에 연료를 공급하는 LNG 벙커링 전문 회사. 2027년 COD 목표."
+      "last_updated": "2026-05-13",
+      "description": "에코마린퓨얼솔루션(EMFS). SK가스 LNG 벙커링 자회사. KET에서 LNG를 조달해 친환경 선박에 연료 공급. 2027년 COD 목표."
     },
     {
       "id": "ulsan-gps",
@@ -361,22 +420,29 @@
       "type": "국내계열사",
       "parent_id": null,
       "book_value": 4528.0,
-      "equity_ratio": 99.48,
+      "equity_ratio": 100.0,
       "investment_date": "2014~2025",
       "invested_amount": 4083,
       "location": "울산광역시",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "SK가스 발전 사업의 핵심 자산. LNG·LPG 복합 연료 가스 발전소(1,227MW) 운영. '14년 구동부발전 주식 최초 취득 후 단계적 지분 확대.",
-      "exit_plan": "전략적 보유 (매각 계획 없음).",
+      "bod": [
+        {"role": "대표이사", "name": "유은철"},
+        {"role": "기타비상무이사", "name": "김준형"},
+        {"role": "기타비상무이사", "name": "심영선"},
+        {"role": "감사", "name": "최이룩"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": "(KDB 풋옵션 행사 전) KDB 0.52%, SK가스 99.48%\n(현재, 풋옵션 행사 후) SK가스 100%",
+      "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'25.11 KDB 풋옵션 행사 신청 → '25.12 완료. SK가스 지분 0.52%→99.48% 확대 (KDB에 336억 지급). KDB 투자 연혁: '14.11 최초 취득, '17 유상증자, '19.10 일부 회수 후 잔여 '25.12 행사.",
-      "last_updated": "2026-05-07",
-      "description": "울산지피에스(UGPS). LNG·LPG 복합 연료 가스 발전소(1,227MW)를 운영하는 발전 자회사. SK가스 발전 사업의 핵심 자산. '25.12 KDB 풋옵션 행사로 지분 99.48% 확대. 기 투자금 약 4,083억원."
+      "recent_issues": "【'25년 실적】매출 7,601억 / 세전이익 1,304억 / 가동준비율(입찰량/최대가능입찰량) 73% / 낙찰률(발전량/입찰량) 76%\n【'26년 계획】매출 8,393억 / 세전이익 1,725억 / 가동준비율 90% / 낙찰률 68%\n'25.11 KDB 풋옵션 행사 신청 → '25.12 완료. SK가스→KDB 336억 지급, 지분 100% 확대.",
+      "last_updated": "2026-05-13",
+      "description": "울산지피에스(UGPS). LNG·LPG 복합 연료 가스 발전소(1,227MW) 운영. '25.12 KDB 풋옵션 행사로 SK가스 100%."
     },
     {
       "id": "goseong-green",
@@ -390,17 +456,21 @@
       "invested_amount": 1721,
       "location": "경남 고성군",
       "website": null,
-      "bod_participation": "GS글로벌 주도 (SKG는 수수료 수취 구조)",
-      "investment_purpose": "경남 고성 2,080MW 석탄화력발전소 투자. 연간 약 200억 이익 기대로 투자 결정. '14년 19억 + '21년 1,702억 추가 투자.",
+      "bod_participation": null,
+      "bod": [
+        {"role": "부사장", "name": "이윤철"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": "GS글로벌(대주주), SK가스 19%",
       "exit_plan": "GS글로벌과 협의 후 최적 시점 매각 검토. 지에너지와 연동 구조로 개별 매각 어려움.",
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "【현안 1. 정산조정계수】표준투자비 산정 용역 진행 중(18개월). 인정투자비 4조원(임시) vs 실제 4.7조원. 27년 이내 확정 예정. 【현안 2. 소송 3건】① 변동비회수소송: 이론효율 vs 실제효율 차이로 연 350~400억 연료비 미수취 → 전력거래소 상대 소송. ② O&M소송: 남동발전의 전력비·석탄회판매수익·인센티브 지급 거부 → 소송 진행 중('24~). ③ EPC소송: SK에코플랜트가 GGP 상대 추가 공사비(1,985억 vs 4,062억 주장) 청구 → 감정평가 진행 중. 【현안 3. 이용률】석탄발전 이용률 약 5% (목표 92%). TF 구성해 GGP 생존·성장방안 수립 중.",
-      "last_updated": "2026-05-07",
-      "description": "고성그린파워(GGP). 경남 고성군 소재 2,080MW 석탄화력발전. GS글로벌과 합작 구조 (SKG 19%). 연간 약 200억 이익 기대로 투자했으나 현재 BEP 또는 적자. 총 기 투자금 1,721억원. 정산조정계수, O&M, EPC, 변동비회수 소송 진행 중."
+      "recent_issues": "【현안 1. 정산조정계수】표준투자비 산정 용역 진행 중(18개월). 인정투자비 4조원(임시) vs 실제 4.7조원. '27년 이내 확정 예정.\n【현안 2. 소송 3건】① 변동비회수소송: 이론효율 vs 실제효율 차이로 연 350~400억 연료비 미수취 → 전력거래소 상대 소송. ② O&M소송: 남동발전의 전력비·석탄회판매수익·인센티브 지급 거부 → 소송('24~). ③ EPC소송: SK에코플랜트가 GGP 상대 추가 공사비(1,985억 vs 4,062억 주장) 청구 → 감정평가 중.\n【현안 3. 이용률】석탄발전 이용률 약 5% (목표 92%). TF 구성해 GGP 생존·성장방안 수립 중.",
+      "last_updated": "2026-05-13",
+      "description": "고성그린파워(GGP). 경남 고성군 소재 2,080MW 석탄화력발전. GS글로벌과 합작 구조 (SKG 19%). 총 기 투자금 1,721억원."
     },
     {
       "id": "gridflex-inc",
@@ -415,16 +485,22 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "미국 ESS(에너지저장장치) 및 전력 중개사업 투자. 에너지 신사업 포트폴리오 다각화.",
-      "exit_plan": "대주주 요구와 리스크 분산 필요성으로 계열사 감축 어려움. 전략적 보유.",
+      "bod": [
+        {"role": "이사", "name": "최중환"},
+        {"role": "이사", "name": "정상빈"},
+        {"role": "이사", "name": "박기석"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": "SK가스 80%, SK이터닉스 20% → GridFlex Inc. 100%",
+      "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "지분구조: SK가스 80% + SK이더니스 20% → GridFlex Inc. 100%. '23년 291억, '24년 95억, '25년 310억 투자. 총 기 투자금 696억.",
-      "last_updated": "2026-05-07",
-      "description": "GridFlex Inc. 미국 ESS(에너지저장장치) 및 전력 중개사업 법인. SK가스 80% + SK이더니스 20% 보유. SA Grid Solutions, Great Kiskadee Storage 등 하위 ESS 프로젝트 보유. 기 투자금 696억."
+      "recent_issues": "'23년 291억, '24년 95억, '25년 310억 투자. 총 기 투자금 696억.",
+      "last_updated": "2026-05-13",
+      "description": "미국 ESS(에너지저장장치) 및 전력 중개사업 법인. SK가스 80% + SK이터닉스 20% 보유. SA Grid Solutions, Great Kiskadee Storage 등 하위 ESS 프로젝트 보유."
     },
     {
       "id": "gridflex-storage",
@@ -439,7 +515,9 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "GridFlex Inc. 산하 ESS 및 전력 중개사업 운영 자회사.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -447,8 +525,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "Gridflex Storage LLC. GridFlex Inc.의 미국 ESS 및 전력 중개사업 운영 자회사. GridFlex Storage → SA Grid Solutions (60%), Raven Storage, GK Storage 등 하위 프로젝트 법인 보유."
+      "last_updated": "2026-05-13",
+      "description": "GridFlex Inc.의 미국 ESS 및 전력 중개사업 운영 자회사. GridFlex Storage → SA Grid Solutions (60%), Raven Storage, GK Storage 등 하위 프로젝트 법인 보유."
     },
     {
       "id": "sa-grid-solutions",
@@ -463,16 +541,18 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "Apex Clean Energy와 SK가스가 설립한 JV. ESS 프로젝트 파이낸싱(PF) 구조 기획·주도. GridFlex Storage 60% + Apex LLC(Apex Clean Energy 100% 자회사) 40% 보유.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": "GridFlex Storage 60% + Apex Clean Energy(Apex LLC) 40%",
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "SA Grid Solutions LLC(Sponsor). 파트너인 Apex Clean Energy와 SK가스가 설립한 JV. ESS 프로젝트 파이낸싱(PF) 구조를 기획하고 주도하는 스폰서 법인. GridFlex Storage 60%, Apex LLC 40%."
+      "recent_issues": "【Great Kiskadee(SA Grid Solutions)】 총 투자비 1,543억 / SK가스 투자 351억. COD '25.1월. '25년 수익 목표 45억, 실적 -30억. '26년 수익 목표 60억. '26.3 가동률 95%.",
+      "last_updated": "2026-05-13",
+      "description": "Apex Clean Energy와 SK가스가 설립한 JV. ESS 프로젝트 파이낸싱(PF) 구조를 기획하고 주도하는 스폰서 법인."
     },
     {
       "id": "raven-storage",
@@ -487,16 +567,18 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "GridFlex 산하 ESS 프로젝트 법인.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "Raven Storage LLC. SA Grid Solutions 산하 ESS 프로젝트 법인."
+      "recent_issues": "총 투자비 1,366억 / SK가스 투자 302억. COD '26.12월 예정.",
+      "last_updated": "2026-05-13",
+      "description": "SA Grid Solutions 산하 ESS 프로젝트 법인."
     },
     {
       "id": "gk-storage-pledgor",
@@ -511,7 +593,9 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "Pledgor 운영·관리 법인. EOD(기한이익상실) 시 Lender가 운영 권한 취득.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -519,8 +603,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "Great Kiskadee Storage Pledgor Manager LLC. Pledgor를 운영·관리하는 법인. EOD(기한이익상실) 발생 시 Lender가 이 회사를 통해 Pledgor에 대한 운영 권한을 취득할 수 있음."
+      "last_updated": "2026-05-13",
+      "description": "Pledgor 운영·관리 법인. EOD(기한이익상실) 시 Lender가 운영 권한 취득."
     },
     {
       "id": "gks-holdco2",
@@ -535,7 +619,9 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "Borrower(GKS Holdco1) 지분 보유 중간지주사(Pledgor). EOD 시 Lender가 지분 압류·처분 가능.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -543,8 +629,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "Great Kiskadee Storage Intermediate Holdco 2 LLC(Pledgor). Borrower(GKS Holdco1)에 대한 지분을 보유하는 중간지주사. EOD 발생 시 Lender가 Pledgor 보유 지분을 압류·처분 가능."
+      "last_updated": "2026-05-13",
+      "description": "Borrower(GKS Holdco1) 지분 보유 중간지주사(Pledgor). EOD 시 Lender가 지분 압류·처분 가능."
     },
     {
       "id": "gks-holdco1",
@@ -559,7 +645,9 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "Lender와 실질적 차입·상환이 발생하는 차주 법인(Borrower).",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -567,8 +655,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "GKS Intermediate Holdco 1 LLC(Borrower). Lender와의 실질적인 현금 거래(대출·상환)가 발생하는 차주 법인."
+      "last_updated": "2026-05-13",
+      "description": "Lender와 실질적 차입·상환이 발생하는 차주 법인(Borrower)."
     },
     {
       "id": "great-kiskadee",
@@ -583,7 +671,9 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "실제 ESS 설비 보유·운영 최하위 프로젝트 법인.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -591,8 +681,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "Great Kiskadee Storage LLC(Project Company). 실제 ESS 설비를 보유하고 운영하는 최하위 프로젝트 법인."
+      "last_updated": "2026-05-13",
+      "description": "실제 ESS 설비를 보유·운영하는 최하위 프로젝트 법인(Project Company)."
     },
     {
       "id": "bitgoeul",
@@ -607,16 +697,21 @@
       "location": "광주광역시",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "LNG·LPG 기반 연료전지 발전소 투자. 친환경 발전 포트폴리오 다각화.",
+      "bod": [
+        {"role": "이사", "name": "이지선"},
+        {"role": "이사", "name": "정상빈"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "빛고을에코에너지. LNG와 LPG를 연료로 연료전지 발전을 운영하는 친환경 발전소 운영사."
+      "recent_issues": "'22.9 준공 후 정상 운영 중. 세계 최초 LPG·LNG 듀얼 연료전지(12.32MW). <a href='https://www.mtnews.net/news/articleView.html?idxno=14832' target='_blank' rel='noopener'>중부발전 LPG-LNG 듀얼모델 연료전지 기사</a>",
+      "last_updated": "2026-05-13",
+      "description": "광주광역시 소재 연료전지 발전소. LNG·LPG 복합 연료 기반 12.32MW 발전 운영."
     },
     {
       "id": "enechange",
@@ -631,16 +726,18 @@
       "location": "일본 도쿄",
       "website": "https://enechange.co.jp",
       "bod_participation": null,
-      "investment_purpose": "일본 전기·가스 요금 비교 플랫폼. 에너지 소매 시장 Digital화 관련 신사업 탐색 목적.",
-      "exit_plan": "'25.12 Exit 완료 (7억원 투자 / 6.2억원 매도).",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": null,
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2025,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "25.12 Exit 완료 (7억원 투자 / 6.2억원 매도)",
-      "last_updated": "2026-05-07",
-      "description": "Enechange Investment. 일본의 전기·가스 요금 비교 플랫폼. 가정·기업이 전기·가스 요금을 비교하여 더 저렴한 공급사로 전환할 수 있도록 돕는 서비스. 2025년 12월 Exit 완료."
+      "recent_issues": "'25.12 Exit 완료 (7억원 투자 / 6.2억원 매도)",
+      "last_updated": "2026-05-13",
+      "description": "일본 전기·가스 요금 비교 플랫폼. 2025년 12월 Exit 완료."
     },
     {
       "id": "optimitive",
@@ -655,16 +752,18 @@
       "location": "스페인",
       "website": "https://www.optimitive.com",
       "bod_participation": null,
-      "investment_purpose": "공장 내 Process data 수집·분석 AI 솔루션 투자. 에너지 효율화 → 전기 신사업 관점의 산업체 에너지 최적화 파트너.",
-      "exit_plan": "인수의향자 부재로 Exit 추진 중. 전략적 연계성 부족. 매우 어려운 상황.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": "인수의향자 부재로 Exit 추진 중. 전략적 연계성 부족.",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": null,
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
-      "recent_issues": "'24년 Series A Close: Pre-Money €15M / Post-Money €19M. 주요 투자자 Tithys Holding, Cemex Ventures. 주요 고객은 시멘트 회사. 당사와의 전략적 연계성 부족 (SKG와의 Synergy 없음). 투자금 13억원 전액 손상 처리.",
-      "last_updated": "2026-05-07",
-      "description": "Optimitive SLU. 공장 에너지 효율화 소프트웨어를 개발하는 스페인 스타트업. 2019년 13억원 투자 후 전액 손상 처리. 현 Series A Post-Money €19M. 주요 Traction은 시멘트 업체. 전략적 Alignment 없어 Exit 추진 중."
+      "recent_issues": "'24년 Series A Close: Pre-Money €15M / Post-Money €19M. 주요 고객 시멘트 회사. SKG와 Synergy 없음. 투자금 13억원 전액 손상 처리.",
+      "last_updated": "2026-05-13",
+      "description": "공장 에너지 효율화 소프트웨어 스페인 스타트업. 2019년 13억원 투자 후 전액 손상 처리."
     },
     {
       "id": "carbon-lighthouse",
@@ -679,16 +778,18 @@
       "location": "미국 샌프란시스코",
       "website": "https://www.carbonlighthouse.com",
       "bod_participation": null,
-      "investment_purpose": "상업용 빌딩 에너지 효율화 솔루션 스타트업 투자. 전기 신사업 관점에서 Commercial 고객 대상 CTSP 성격의 사업 진출 위한 파트너로 최초 검토.",
-      "exit_plan": "'26년 Series B 유치 후 3년 이상 시 M&A Exit 추진 계획. Not enough M&A traction으로 당분간 보유 불가피.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": "'26년 Series B 유치 후 3년 이상 시 M&A Exit 추진 계획.",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
-      "recent_issues": "【'25.9 현황】금년 말 Fund Raising 계획 없음. Cash Runway 확보. '26년 Series B 내부 계획. 최근 Valuation 미확인(답변 미수신). 전략적 Alignment 없음(가스와의 접점 부족). 매출/영업이익은 코로나 대비 개선 추세. Exit까지 3년 이상 소요 전망.",
-      "last_updated": "2026-05-07",
-      "description": "Carbon Lighthouse Inc. 미국 상업용 빌딩 에너지 효율화 솔루션 스타트업. 2018~2019년 총 15억원 투자. 전략적 Alignment 없어 Exit 추진 중. 지분율 0.6%. '26년 Series B 계획."
+      "recent_issues": "【'25.9 현황】'26년 Series B 내부 계획. Cash Runway 확보. 최근 Valuation 미확인. 전략적 Alignment 없음. Exit까지 3년 이상 소요 전망.",
+      "last_updated": "2026-05-13",
+      "description": "미국 상업용 빌딩 에너지 효율화 솔루션 스타트업. 2018~2019년 총 15억원 투자. 지분율 0.6%."
     },
     {
       "id": "metron",
@@ -703,16 +804,18 @@
       "location": "프랑스 (파리 인근)",
       "website": "https://www.metron.energy",
       "bod_participation": null,
-      "investment_purpose": "빅데이터 기반 공장·상업용 빌딩 에너지 효율화 AI 스타트업 투자. 산업체 에너지 효율화 솔루션 파트너 확보 목적. 해사 분야 PoC 시도했으나 시장환경·규제로 Pilot 종료.",
-      "exit_plan": "M&A Due Diligence 진행 중 (전략적 Corp 인수 검토). Phase 1 결과 후 Phase 2 여부 결정. 재무 개선 시 구주 매각 형태 Exit 추진.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": "M&A Due Diligence 진행 중. Phase 1 결과 후 Phase 2 여부 결정.",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
-      "recent_issues": "【'25.9 현황】'24년 Series C Post-Money €39.3M. 주요 투자자: OGCI/BNP Paribas(€4.5M), GET Fund, Vertigo(€8M). M&A Phase 1 DD 진행 중(결과 시기 미정). 전략적 Alignment 없음. 해사 PoC 탄력 못 받아 Pilot 종료. 투자금 23.5억 전액 손상 처리.",
-      "last_updated": "2026-05-07",
-      "description": "Metron. 빅데이터를 활용한 공장·상업용 빌딩 에너지 효율화 사업 프랑스 AI 스타트업. 2020년 투자 후 전액 손상 처리. '24년 Series C €39.3M. M&A DD 진행 중."
+      "recent_issues": "【'25.9 현황】'24년 Series C Post-Money €39.3M. M&A Phase 1 DD 진행 중(결과 시기 미정). 해사 PoC 탄력 못 받아 Pilot 종료. 투자금 23.5억 전액 손상 처리.",
+      "last_updated": "2026-05-13",
+      "description": "빅데이터 기반 공장·상업용 빌딩 에너지 효율화 프랑스 AI 스타트업. 2020년 투자 후 전액 손상 처리."
     },
     {
       "id": "dangjin-ecopower",
@@ -727,16 +830,23 @@
       "location": "충청남도 당진시",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "태양광 발전소 투자. 친환경 발전 포트폴리오 강화. 구DEP·신DEP 포함 총 기 투자금 2,362억.",
+      "bod": [
+        {"role": "대표이사", "name": "조병익"},
+        {"role": "이사", "name": "이은서"},
+        {"role": "이사", "name": "어원석"},
+        {"role": "감사", "name": "최정훈"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": "(KDB 풋옵션 행사 전) KDB 11.13%, SK가스 54.87%, 동서발전 34%\n(현재, 풋옵션 행사 후) SK가스 66%, 동서발전 34%, KDB 지분 소멸",
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'25.12 KDB 풋옵션 행사 완료 → SK가스 지분 11.13%→66% 확대 (한국동서발전 34% 유지). KDB 지분 소멸.",
-      "last_updated": "2026-05-07",
-      "description": "당진에코파워. 친환경 태양광 발전소를 운영하는 신재생에너지 생산 법인. '25.12 KDB 풋옵션 행사로 SK가스 지분 66%로 확대. 기 투자금 약 2,362억원."
+      "recent_issues": "'25.12 KDB 풋옵션 행사 완료 → SK가스 지분 54.87%→66% 확대 (동서발전 34% 유지, KDB 지분 소멸).",
+      "last_updated": "2026-05-13",
+      "description": "친환경 태양광 발전소 운영. 총 기 투자금 약 2,362억원."
     },
     {
       "id": "lotte-sk-enerute",
@@ -751,16 +861,22 @@
       "location": "서울 (합작법인)",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "수소 연료전지 발전 및 수송용 수소 사업 추진. 롯데 50% + SK가스 50% 합작. 울산에너루트2호 등 자회사 통해 연료전지 발전 운영.",
+      "bod": [
+        {"role": "공동대표", "name": "길호문"},
+        {"role": "사내이사", "name": "이기원"},
+        {"role": "감사", "name": "이은서"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": "롯데케미칼 50%, SK가스 50%",
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "롯데에스케이에너루트. 수소 연료전지 발전 및 수송용 수소 사업을 영위하는 합작법인(롯데 50%+SK가스 50%). 울산에너루트2호 등 자회사를 통해 연료전지 발전을 운영. 기 투자금 약 529억원."
+      "recent_issues": "'26.4 울산하이드로젠파워1호(20MW) 상업운전 개시. '25.6 울산하이드로젠파워2호(20MW) 상업운전 개시. '26.12까지 80MW 종합 준공 목표. <a href='https://biz.heraldcorp.com/article/10715470' target='_blank' rel='noopener'>헤럴드경제: 두 번째 수소 연료전지 발전소 상업운전</a>",
+      "last_updated": "2026-05-13",
+      "description": "수소 연료전지 발전 및 수송용 수소 사업 합작법인(롯데케미칼 50%+SK가스 50%). 울산에너루트2호 등 자회사를 통해 연료전지 발전 운영. 기 투자금 약 529억원."
     },
     {
       "id": "ulsan-enerute2",
@@ -775,7 +891,9 @@
       "location": "울산광역시",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "수소 연료전지 발전 운영 자회사.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -783,8 +901,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "울산에너루트2호. 롯데에스케이에너루트 산하 수소 연료전지 발전 운영 자회사."
+      "last_updated": "2026-05-13",
+      "description": "롯데에스케이에너루트 산하 수소 연료전지 발전 운영 자회사."
     },
     {
       "id": "ulsan-enerute3",
@@ -799,16 +917,18 @@
       "location": "울산광역시",
       "website": null,
       "bod_participation": null,
+      "bod": [],
       "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2025,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "25.11 사업 양도 후 청산 완료",
-      "last_updated": "2026-05-07",
-      "description": "울산에너루트3호. 롯데에스케이에너루트 산하 법인. 2025년 11월 사업 양도 후 청산 완료."
+      "recent_issues": "'25.11 사업 양도 후 청산 완료",
+      "last_updated": "2026-05-13",
+      "description": "롯데에스케이에너루트 산하 법인. 2025년 11월 사업 양도 후 청산 완료."
     },
     {
       "id": "taehwa-enerute1",
@@ -823,16 +943,18 @@
       "location": "울산광역시",
       "website": null,
       "bod_participation": null,
+      "bod": [],
       "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2025,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "25.11 사업 양도 후 청산 완료",
-      "last_updated": "2026-05-07",
-      "description": "태화에너루트1호. 롯데에스케이에너루트 산하 법인. 2025년 11월 사업 양도 후 청산 완료."
+      "recent_issues": "'25.11 사업 양도 후 청산 완료",
+      "last_updated": "2026-05-13",
+      "description": "롯데에스케이에너루트 산하 법인. 2025년 11월 사업 양도 후 청산 완료."
     },
     {
       "id": "taehwa-enerute2",
@@ -847,20 +969,22 @@
       "location": "울산광역시",
       "website": null,
       "bod_participation": null,
+      "bod": [],
       "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2025,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "25.11 사업 양도 후 청산 완료",
-      "last_updated": "2026-05-07",
-      "description": "태화에너루트2호. 롯데에스케이에너루트 산하 법인. 2025년 11월 사업 양도 후 청산 완료."
+      "recent_issues": "'25.11 사업 양도 후 청산 완료",
+      "last_updated": "2026-05-13",
+      "description": "롯데에스케이에너루트 산하 법인. 2025년 11월 사업 양도 후 청산 완료."
     },
     {
       "id": "graphitic-energy",
-      "name": "Graphitic Energy",
+      "name": "Graphitic Energy(구 C-Zero)",
       "sector": "신재생",
       "type": "기타지분",
       "parent_id": "sk-gas-usa",
@@ -871,7 +995,9 @@
       "location": "미국 캘리포니아",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "청록수소(메탄 열분해) 기술 투자. 수소와 고체 탄소를 동시 생산하는 기술 연구·개발. 청록수소 생산 기술 투자 (총 약 244억).",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": "청산 절차 진행 중.",
       "strategy": "Exit",
       "rebalancing_target": true,
@@ -879,8 +1005,8 @@
       "exit_status": "매각 예정",
       "exit_pending_reason": null,
       "recent_issues": "청산 절차 진행 중",
-      "last_updated": "2026-05-07",
-      "description": "Graphitic Energy(구 C-Zero). 미국 캘리포니아 소재 청록수소(Turquoise Hydrogen) 생산 스타트업. 메탄 열분해를 통해 수소와 고체 탄소를 동시 생산하는 기술을 연구·개발. 현재 청산 절차 진행 중. 기 투자금 약 244억."
+      "last_updated": "2026-05-13",
+      "description": "청록수소(메탄 열분해) 기술 스타트업. 메탄 열분해를 통해 수소와 고체 탄소를 동시 생산. 현재 청산 절차 진행 중. 기 투자금 약 244억."
     },
     {
       "id": "kohygen",
@@ -895,16 +1021,18 @@
       "location": "서울",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "수소충전소 구축·운영 사업 투자. 정부·대기업 공동 출자 법인 참여. 상용차용 수소 충전 인프라 확대.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": "수소시장 본격 개화 시점에 현대차 대상 지분 매각 시도 예정 (Exit 가능성 Low).",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": "수소시장 본격 개화 지연으로 인수의향자 부재",
-      "recent_issues": "수소시장 본격 개화 시점에 현대차 대상 지분 매각 시도 예정 (Exit 가능성 Low)",
-      "last_updated": "2026-05-07",
-      "description": "코하이젠. 정부와 대기업이 공동 출자하여 설립한 수소충전소 구축·운영 전문 기업. 상용차용 수소 충전 인프라 확대 중. 기 투자금 약 22억. 수소시장 본격 개화 시 현대차 대상 지분 매각 예정."
+      "recent_issues": null,
+      "last_updated": "2026-05-13",
+      "description": "정부·대기업 공동 출자 수소충전소 구축·운영 전문 기업. 기 투자금 약 22억."
     },
     {
       "id": "hyliom-rcps",
@@ -919,16 +1047,18 @@
       "location": "서울",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "액화수소 저장·충전 기술 전문기업 투자. 수소 밸류체인 확보 목적.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": "기술특례상장 재추진 예정이나 시점 미정.",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": null,
       "exit_status": "매각 예정",
-      "exit_pending_reason": "25년 기술특례상장 추진 → Drop",
+      "exit_pending_reason": "상장 재추진 예정이나 시점 미정",
       "recent_issues": "상장 재추진 예정이나 시점 미정",
-      "last_updated": "2026-05-07",
-      "description": "하이리움산업 RCPS. 액화수소 저장·충전 기술 전문기업. 2025년 기술특례상장 추진했으나 Drop, 상장 재추진 예정(시점 미정). 기 투자금 10억원."
+      "last_updated": "2026-05-13",
+      "description": "액화수소 저장·충전 기술 전문기업. 기 투자금 10억원."
     },
     {
       "id": "gridwiz",
@@ -943,16 +1073,20 @@
       "location": "서울 (KOSDAQ 상장)",
       "website": "https://www.gridwiz.com",
       "bod_participation": null,
-      "investment_purpose": "전력 수요관리(DR), ESS, 전기차 충전 서비스 기업 투자. 에너지 데이터 기반 전력 신사업 파트너.",
-      "exit_plan": "상장사로 시장 매각 가능. 전략적 보유 중.",
+      "bod": [
+        {"role": "이사", "name": "최이룩"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'23년 RCPS→보통주 전환으로 25.39%. '24년 IPO 시 불균등 유상증자로 희석 → 20.83%(현 20.8%)",
-      "last_updated": "2026-05-07",
-      "description": "그리드위즈. 에너지 데이터 기반 전력 수요관리(DR), 에너지저장장치(ESS), 전기차 충전 등 서비스를 제공하는 전력 신사업 기업. KOSDAQ 상장사."
+      "recent_issues": "'26.2 현 시점 매각 시급성 낮고 경영권 프리미엄 확보 가능성 등 고려하여 홀딩 결정. 미래 사업 연계 가능성 논의 예정 (w/DY). '25년 영업이익·순이익 흑자전환. <a href='https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A453450' target='_blank' rel='noopener'>그리드위즈 기업정보(FNGuide)</a>",
+      "last_updated": "2026-05-13",
+      "description": "에너지 데이터 기반 전력 수요관리(DR), ESS, 전기차 충전 서비스 기업. KOSDAQ 상장사."
     },
     {
       "id": "eurasia-tunnel",
@@ -967,16 +1101,18 @@
       "location": "터키 이스탄불 (보스포루스 해협 해저터널)",
       "website": "https://www.avrasya-tuneli.com.tr",
       "bod_participation": null,
-      "investment_purpose": "이스탄불 보스포루스 해협 5.4km 복층 자동차 전용 해저터널 운영사(ATAS) 간접 투자. SK Holdco를 통해 우선주 36.5% 보유 (총 $52M, 약 596억원). 투자재원 확보 목적.",
-      "exit_plan": "'22.6 이사회 승인으로 Q사(QH Oil Investments LLC, 카타르투자청)와 SPA 추진. '23~'25 YM 이슈·계약변경으로 Deal Drop. '25년 말부터 지분법이익으로 전환. '29년부터 재매각(Tapping) 추진. '30년 PF 상환 완료 후 배당 시작 (우선주 IRR 12.3% 기준, SKG 예상 수령액 '30~'41 합계 약 508억).",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": "YM(Yapi Merkezi) 50% + SK Holdco 50%\n※ SK Holdco 내: SKEP 51%(보통주), SKEP 5.5%(우선주), SK가스 36.5%(우선주/$52M), SKMENA 7%",
+      "exit_plan": "'29년부터 3차 매각(Tapping) 추진. '30년 PF 상환 완료 후 배당 시작 (우선주 IRR 12.3% 기준, '30~'41 합계 약 508억 예상).",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": null,
-      "recent_issues": "【경영현황 ('25년)】매출 $195M, EBITDA $158M, 당기순이익 $70M. PF 차입 잔액 $4.5억불. '30년 상반기 PF 상환 완료 예정. 【매각 경과】'25.12 Q사의 지속적 계약변경 요구로 최종 Deal Drop. 향후 '29년부터 3차 매각 본격 추진. YM 구조조정 합의서 체결로 잠재리스크 완화.",
-      "last_updated": "2026-05-07",
-      "description": "유라시아터널(ATAS, 유라시아 JV). SK Holdco Pte. Ltd를 통해 간접 보유. SK Holdco 내 구성: SKEP 51%(보통주), SKEP 5.5%(우선주), SK가스 36.5%(우선주/$52M), SKMENA 7%. YM(Yapi Merkezi, 튀르키예 3대 건설사) 50% + SK Holdco 50%. CAPEX $1,245M. '29년부터 재매각 추진."
+      "recent_issues": "【경영현황 ('25년)】매출 $195M, EBITDA $158M, 당기순이익 $70M. PF 차입 잔액 $4.5억불. '30년 상반기 PF 상환 완료 예정.\n【매각 경과】'25.12 Q사의 지속적 계약변경 요구로 최종 Deal Drop. '29년부터 3차 매각 본격 추진. YM 구조조정 합의서 체결로 잠재리스크 완화.",
+      "last_updated": "2026-05-13",
+      "description": "이스탄불 보스포루스 해협 5.4km 복층 자동차 전용 해저터널 운영사(ATAS). SK Holdco를 통해 우선주 36.5% 간접 보유 (총 $52M, 약 596억원)."
     },
     {
       "id": "kobus-finance",
@@ -991,7 +1127,11 @@
       "location": "서울",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "중소기업 금융서비스 기업 투자 (여신금융회사). 중소기업 자금지원·매출채권 양수·팩토링.",
+      "bod": [
+        {"role": "이사", "name": "최이룩"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -999,8 +1139,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "한국비즈니스금융대부. 중소기업을 위한 자금지원·매출채권 양수 및 관리·팩토링 금융서비스를 제공하는 여신금융회사."
+      "last_updated": "2026-05-13",
+      "description": "중소기업 자금지원·매출채권 양수 및 관리·팩토링 금융서비스를 제공하는 여신금융회사."
     },
     {
       "id": "hanil-cement",
@@ -1015,7 +1155,9 @@
       "location": "서울 (유가증권시장 상장)",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "계열사 관계에서 비롯된 소규모 지분 보유.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -1023,8 +1165,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "한일시멘트. 2018년 7월 한일홀딩스 인적분할을 통해 설립된 시멘트 제조사. 시멘트·레미콘·레미탈 등 건설자재 제조 및 판매."
+      "last_updated": "2026-05-13",
+      "description": "시멘트·레미콘·레미탈 등 건설자재 제조 및 판매. 계열사 관계에서 비롯된 소규모 지분."
     },
     {
       "id": "hanil-holdings",
@@ -1039,7 +1181,9 @@
       "location": "서울 (유가증권시장 상장)",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "계열사 관계에서 비롯된 소규모 지분 보유.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -1047,8 +1191,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "한일홀딩스. 건설자재(한일시멘트·한일현대시멘트·한일산업·한일건재), 레저(서울랜드·하늘목장), 상사(한일인터내셔널) 등 사업회사를 보유한 지주회사."
+      "last_updated": "2026-05-13",
+      "description": "건설자재·레저·상사 사업회사를 보유한 지주회사. 계열사 관계에서 비롯된 소규모 지분."
     },
     {
       "id": "sk-tic",
@@ -1063,7 +1207,9 @@
       "location": "미국",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "SK그룹 신성장동력 확보 목적으로 설립된 투자 펀드. LP 참여.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -1071,8 +1217,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "SK TIC(SK Technology Innovation Co.). SK그룹 신성장동력 확보 목적으로 설립된 투자 펀드."
+      "last_updated": "2026-05-13",
+      "description": "SK그룹 신성장동력 확보 목적으로 설립된 투자 펀드. LP 참여."
     },
     {
       "id": "konatus-cps",
@@ -1087,16 +1233,18 @@
       "location": "서울",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "반반택시 등 심야 택시 동승 중개 플랫폼 투자. LPG 판매 확대 목적. 전환우선주 22,976주 (43,526원/주) 취득.",
-      "exit_plan": "주식매매계약 체결 (2025.11.21, 매수인: 휴맥스모빌리티). 계약금 20%(약 2억원) 수령. 잔금 80%(약 8억원) 2026.3.31 수령. 총 10억원 전액 회수.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": null,
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2026,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "26.3 Exit 완료. 매수인 휴맥스모빌리티. 10억원 투자 / 10억원 전액 회수 (원금 보전). 양도차익 없어 양도소득세 없음. 증권거래세 약 350만원(세금과공과).",
-      "last_updated": "2026-05-07",
-      "description": "코나투스 전환우선주. 반반택시·대리운전 플랫폼 운영사. 2020.4월 10억원 투자. '25.11.21 휴맥스모빌리티와 주식매매계약 체결, '26.3.31 잔금 수령으로 Exit 완료. 10억원 전액 회수."
+      "recent_issues": "'26.3 Exit 완료. 매수인 휴맥스모빌리티. 10억원 투자 / 10억원 전액 회수 (원금 보전). 양도차익 없어 양도소득세 없음. 증권거래세 약 350만원.",
+      "last_updated": "2026-05-13",
+      "description": "반반택시·대리운전 플랫폼 운영사. 2020.4월 10억원 투자. '26.3.31 휴맥스모빌리티 매각으로 Exit 완료."
     },
     {
       "id": "schoolbus-rcps",
@@ -1111,16 +1259,18 @@
       "location": "서울",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "어린이 통학용 차량 운행 서비스 및 앱 개발사 투자.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
       "exit_plan": "기술특례상장 재추진 예정이나 시점 미정.",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": null,
       "exit_status": "매각 예정",
-      "exit_pending_reason": "25년 기술특례상장 추진 → Drop, 상장 재추진 예정이나 시점 미정",
+      "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "스쿨버스 RCPS. 어린이 통학용 차량 운행 서비스 및 어플리케이션 개발사. 기술특례상장 추진했으나 Drop, 상장 재추진 예정(시점 미정). 기 투자금 3억원."
+      "last_updated": "2026-05-13",
+      "description": "어린이 통학용 차량 운행 서비스 및 어플리케이션 개발사. 기 투자금 3억원."
     },
     {
       "id": "npg-association",
@@ -1135,7 +1285,12 @@
       "location": "서울",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "SK가스·E1이 공동 설립한 LPG산업 협회. LPG산업 안전관리·정책 개발·회원사 권익보호.",
+      "bod": [
+        {"role": "이사", "name": "변정웅"},
+        {"role": "이사", "name": "박진상"}
+      ],
+      "investment_purpose": null,
+      "equity_structure": "SK가스 50%, E1 50%",
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -1143,8 +1298,8 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": null,
-      "last_updated": "2026-05-07",
-      "description": "대한엘피지협회. SK가스·E1이 공동 설립한 LPG산업 협회. LPG산업 안전관리·정책 개발·회원사 권익보호 등을 담당하는 산업통상자원부 산하 단체."
+      "last_updated": "2026-05-13",
+      "description": "SK가스·E1이 공동 설립한 LPG산업 협회. LPG산업 안전관리·정책 개발·회원사 권익보호 담당."
     },
     {
       "id": "jinmobility",
@@ -1159,16 +1314,18 @@
       "location": "서울",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "플랫폼 중심 모빌리티(택시) 시장 대응 및 LPG 판매 확대. 아이엠택시 플랫폼-위례 LPG 충전소 연계. '22~'24년 LPG 판매량 600톤/월까지 증가 달성. 전환사채(CB) 52억원 인수.",
-      "exit_plan": "CB 만기 '25.4.29 → 원금 9억 상환 조건으로 1년 연장. '25.12 전환사채 전액(47억원) 평가손실 인식 (공정가치 0원). 담보(택시 자회사 지분 2순위, 부동산 3순위) 실질 회수 가치 없음. 원금 회수 불투명.",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": null,
+      "exit_plan": "CB 만기 '25.4.29 → 원금 9억 상환 조건으로 1년 연장. 원금 회수 불투명.",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": null,
       "exit_status": "매각 예정",
       "exit_pending_reason": "전액 평가손실 인식, 원금 회수 사실상 불가",
-      "recent_issues": "【구조·History】법인택시 사장들이 설립한 아이엠택시 플랫폼. 코로나+전액관리제 도입으로 법인택시 기사 이탈, 협동조합 전환 시도했으나 유명무실. 【'25.12 평가손실 품의】'21~'24 누적 손실 504억, '25H1 자본잠식 95억. 택시면허권 담보 대출 불가('25.6). '25.7 이후 이자·원금 연체. 외부감사 의견거절('25.12.3). → 전환사채 47.007억원 전액 손상처리 결정.",
-      "last_updated": "2026-05-07",
-      "description": "진모빌리티 전환사채. '아이엠택시' 택시 호출 서비스를 운영하는 모빌리티 스타트업. 2022.4월 CB 52억원 투자. '25.12 전액 평가손실 인식(공정가치 0). 장부가 0원. 담보 실질가치 없어 원금 회수 불투명."
+      "recent_issues": "'25.12 전환사채 47.007억원 전액 손상처리. '21~'24 누적 손실 504억, '25H1 자본잠식 95억. '25.7 이후 이자·원금 연체. 외부감사 의견거절('25.12.3). 담보(택시 자회사 지분 2순위, 부동산 3순위) 실질 회수 가치 없음.",
+      "last_updated": "2026-05-13",
+      "description": "'아이엠택시' 택시 호출 서비스 운영사. 2022.4월 CB 52억원 투자. '25.12 전액 평가손실 인식(장부가 0원). 원금 회수 불투명."
     },
     {
       "id": "sk-holdco",
@@ -1183,16 +1340,18 @@
       "location": "싱가포르",
       "website": null,
       "bod_participation": null,
-      "investment_purpose": "유라시아터널 지분의 해외 보유 SPC. SK Holdco 내 구성: SKEP 51%(보통주), SKEP 5.5%(우선주), SK가스 36.5%(우선주/$52M), SKMENA 7%(우선주/$10M).",
+      "bod": [],
+      "investment_purpose": null,
+      "equity_structure": "SKEP 51%(보통주), SKEP 5.5%(우선주), SK가스 36.5%(우선주), SKMENA 7%(우선주)",
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "25년까지 매각예정자산으로 분류 후 '26년 철회. 투자회사 관리 영역으로 편입",
-      "last_updated": "2026-05-07",
-      "description": "SK가스의 해외 투자 중간지주회사. 유라시아터널 지분을 간접 보유. 25년까지 매각예정자산으로 분류되었다가 2026년 철회되어 투자회사 관리 영역으로 편입됨."
+      "recent_issues": "'25년까지 매각예정자산으로 분류 → '26년 철회. 투자회사 관리 영역으로 편입.",
+      "last_updated": "2026-05-13",
+      "description": "유라시아터널 지분을 간접 보유하는 해외 SPC."
     }
   ]
 }
