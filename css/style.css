@@ -254,9 +254,10 @@ body {
   border-radius: 6px;
   padding: 11px 13px;
   font-size: 12px;
-  line-height: 1.75;
+  line-height: 1.9;
   color: #333;
   border-left: 3px solid #003087;
+  white-space: pre-line;
 }
 .panel-updated {
   font-size: 11px; color: #bbb;
