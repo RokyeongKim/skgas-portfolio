@@ -25,6 +25,10 @@ function fmtRatio(v) {
   if (v === null || v === undefined) return '-';
   return v + '%';
 }
+function fmtBook(c) {
+  if (c.book_value_label) return c.book_value_label;
+  return fmt(c.book_value);
+}
 
 function getBadge(c) {
   if (c.exit_status === 'Exit 완료') return '<span class="badge badge-exit-done">Exit완료</span>';
@@ -51,7 +55,7 @@ function renderCard(c, isChild) {
         <span class="card-name">${c.name}</span>
       </div>
       <div class="card-meta">
-        <span>${fmt(c.book_value)} | ${fmtRatio(c.equity_ratio)}</span>
+        <span>${fmtBook(c)} | ${fmtRatio(c.equity_ratio)}</span>
         ${getBadge(c)}
       </div>
     </div>`;
@@ -136,90 +140,63 @@ function renderMinorHoldings() {
 // =====================================================
 function getSkaSvg() {
   return `
-<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg"
-  style="width:100%;border:1px solid #dde4ec;border-radius:6px;background:#f8fafc;margin:6px 0;font-family:'Malgun Gothic',sans-serif">
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg"
+  style="width:100%;border:1px solid #dde4ec;border-radius:8px;background:#f8fafc;margin:6px 0;font-family:'Malgun Gothic','맑은 고딕',sans-serif">
 
-  <!-- 상단 제목 -->
-  <rect x="8" y="8" width="624" height="22" rx="3" fill="#e3f0fb" stroke="#b0c8e8" stroke-width="1"/>
-  <text x="320" y="23" font-size="11" fill="#1565c0" font-weight="bold" text-anchor="middle">SKA/UPP 사업 및 지분 구조 ('26.4 AGIC Exit 후 SK가스 100%)</text>
-
-  <!-- ── SKG 박스 ── -->
-  <rect x="40" y="50" width="110" height="44" rx="5" fill="#1565c0" stroke="#0d3c7d" stroke-width="1.5"/>
-  <text x="95" y="70" font-size="12" fill="white" font-weight="bold" text-anchor="middle">SK가스</text>
-  <text x="95" y="86" font-size="10.5" fill="#bbdefb" text-anchor="middle">70% (PIC 25% 인수 후)</text>
-
-  <!-- ── AGIC 박스 ── -->
-  <rect x="360" y="50" width="110" height="44" rx="5" fill="#c62828" stroke="#8b0000" stroke-width="1.5"/>
-  <text x="415" y="70" font-size="12" fill="white" font-weight="bold" text-anchor="middle">AGIC</text>
-  <text x="415" y="86" font-size="10.5" fill="#ffcdd2" text-anchor="middle">30% → '26.4 Exit</text>
-
-  <!-- PIC 노트 -->
-  <rect x="510" y="50" width="120" height="44" rx="5" fill="#e8f5e9" stroke="#388e3c" stroke-width="1"/>
-  <text x="570" y="68" font-size="10" fill="#2e7d32" text-anchor="middle">PIC (25%)</text>
-  <text x="570" y="82" font-size="10" fill="#2e7d32" text-anchor="middle">'26.2 Exit 완료</text>
-  <text x="570" y="93" font-size="9" fill="#81c784" text-anchor="middle">✓</text>
-
-  <!-- SKG → SKA 연결선 -->
-  <line x1="95" y1="94" x2="95" y2="128" stroke="#1565c0" stroke-width="2"/>
-  <line x1="95" y1="128" x2="240" y2="128" stroke="#1565c0" stroke-width="2"/>
-  <line x1="240" y1="128" x2="240" y2="154" stroke="#1565c0" stroke-width="2" marker-end="url(#ah-bl)"/>
-  <text x="168" y="122" font-size="9.5" fill="#1565c0" text-anchor="middle">70%</text>
-
-  <!-- AGIC → SKA 연결선 -->
-  <line x1="415" y1="94" x2="415" y2="128" stroke="#c62828" stroke-width="2" stroke-dasharray="5,3"/>
-  <line x1="415" y1="128" x2="280" y2="128" stroke="#c62828" stroke-width="2" stroke-dasharray="5,3"/>
-  <line x1="280" y1="128" x2="280" y2="154" stroke="#c62828" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#ah-rd)"/>
-  <text x="352" y="122" font-size="9.5" fill="#c62828" text-anchor="middle">30% (Exit 예정)</text>
-
-  <!-- 화살표 마커 -->
   <defs>
-    <marker id="ah-bl" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
-      <path d="M0,0 L7,3.5 L0,7 Z" fill="#1565c0"/>
+    <marker id="ska-bl" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#1565c0"/>
     </marker>
-    <marker id="ah-rd" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
-      <path d="M0,0 L7,3.5 L0,7 Z" fill="#c62828"/>
+    <marker id="ska-gy" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#546e7a"/>
     </marker>
-    <marker id="ah-gr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
-      <path d="M0,0 L7,3.5 L0,7 Z" fill="#37474f"/>
-    </marker>
-    <marker id="ah-dk" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
-      <path d="M0,0 L7,3.5 L0,7 Z" fill="#455a64"/>
+    <marker id="ska-dk" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#37474f"/>
     </marker>
   </defs>
 
-  <!-- ── SKA 박스 ── -->
-  <rect x="180" y="154" width="120" height="48" rx="5" fill="#283593" stroke="#1a237e" stroke-width="1.5"/>
-  <text x="240" y="176" font-size="13" fill="white" font-weight="bold" text-anchor="middle">SKA</text>
-  <text x="240" y="193" font-size="10" fill="#c5cae9" text-anchor="middle">(에스케이어드밴스드)</text>
+  <!-- ═══ 제목 배너 ═══ -->
+  <rect x="0" y="0" width="640" height="36" rx="8" fill="#1565c0"/>
+  <rect x="0" y="28" width="640" height="8" fill="#1565c0"/>
+  <text x="320" y="23" font-size="13" fill="white" font-weight="bold" text-anchor="middle">SKA / UPP 지분 구조 ('26.4 기준)</text>
 
-  <!-- SKA → UPP 연결선 (50%-1주) -->
-  <line x1="210" y1="202" x2="150" y2="202" stroke="#455a64" stroke-width="2"/>
-  <line x1="150" y1="202" x2="150" y2="248" stroke="#455a64" stroke-width="2" marker-end="url(#ah-dk)"/>
-  <text x="110" y="228" font-size="9.5" fill="#455a64" text-anchor="middle">50%-1주</text>
+  <!-- ═══ AGIC·PIC Exit 완료 노트 ═══ -->
+  <rect x="420" y="52" width="205" height="58" rx="6" fill="#fce4ec" stroke="#ef9a9a" stroke-width="1.2"/>
+  <text x="522" y="73" font-size="12" fill="#b71c1c" text-anchor="middle" font-weight="700">AGIC · PIC Exit 완료</text>
+  <text x="522" y="90" font-size="10.5" fill="#c62828" text-anchor="middle">PIC '26.2 / AGIC '26.4</text>
+  <text x="522" y="104" font-size="10" fill="#d32f2f" text-anchor="middle">→ SK가스 100% 전환</text>
 
-  <!-- PMC → UPP 연결선 (50%+1주) -->
-  <line x1="270" y1="202" x2="370" y2="202" stroke="#37474f" stroke-width="2"/>
-  <line x1="370" y1="202" x2="370" y2="248" stroke="#37474f" stroke-width="2" marker-end="url(#ah-gr)"/>
-  <text x="410" y="228" font-size="9.5" fill="#37474f" text-anchor="middle">50%+1주</text>
+  <!-- ═══ SK가스 박스 ═══ -->
+  <rect x="195" y="52" width="200" height="58" rx="7" fill="#1565c0" stroke="#0d47a1" stroke-width="2.5"/>
+  <text x="295" y="81" font-size="18" fill="white" font-weight="bold" text-anchor="middle">SK가스</text>
+  <text x="295" y="101" font-size="12" fill="#bbdefb" text-anchor="middle">지배주주 100%</text>
 
-  <!-- ── UPP 박스 ── -->
-  <rect x="80" y="248" width="140" height="44" rx="5" fill="#455a64" stroke="#263238" stroke-width="1.5"/>
-  <text x="150" y="268" font-size="12" fill="white" font-weight="bold" text-anchor="middle">UPP (울산피피)</text>
-  <text x="150" y="284" font-size="9.5" fill="#b0bec5" text-anchor="middle">울산 PP 플랜트 운영</text>
+  <!-- SK가스 → SKA 화살표 -->
+  <line x1="280" y1="110" x2="230" y2="174" stroke="#1565c0" stroke-width="3" marker-end="url(#ska-bl)"/>
+  <text x="243" y="148" font-size="12" fill="#1565c0" font-weight="700">100%</text>
 
-  <!-- ── PMC 박스 ── -->
-  <rect x="300" y="248" width="150" height="44" rx="5" fill="#37474f" stroke="#263238" stroke-width="1.5"/>
-  <text x="375" y="268" font-size="12" fill="white" font-weight="bold" text-anchor="middle">PMC (폴리미래)</text>
-  <text x="375" y="284" font-size="9.5" fill="#b0bec5" text-anchor="middle">DL케미칼 50% / LYB 50%</text>
+  <!-- ═══ SKA 박스 ═══ -->
+  <rect x="55" y="174" width="300" height="66" rx="7" fill="#283593" stroke="#1a237e" stroke-width="2.5"/>
+  <text x="205" y="202" font-size="17" fill="white" font-weight="bold" text-anchor="middle">에스케이어드밴스드 (SKA)</text>
+  <text x="205" y="222" font-size="11" fill="#c5cae9" text-anchor="middle">PDH → 프로필렌 생산 | 울산 | 설립 2014 / 가동 2016~</text>
 
-  <!-- 범례 -->
-  <rect x="8" y="306" width="624" height="26" rx="3" fill="#ecf3fb" stroke="#b0c8e8" stroke-width="1"/>
-  <line x1="18" y1="319" x2="40" y2="319" stroke="#1565c0" stroke-width="2"/>
-  <text x="45" y="323" font-size="9.5" fill="#333">실선: 현재 지배구조</text>
-  <line x1="140" y1="319" x2="162" y2="319" stroke="#c62828" stroke-width="2" stroke-dasharray="4,2"/>
-  <text x="167" y="323" font-size="9.5" fill="#333">점선: Exit 예정 (AGIC '26.4)</text>
-  <rect x="330" y="313" width="10" height="10" rx="2" fill="#e8f5e9" stroke="#388e3c"/>
-  <text x="344" y="323" font-size="9.5" fill="#333">PIC: '26.2 Exit 완료</text>
+  <!-- ═══ PMC 박스 ═══ -->
+  <rect x="395" y="195" width="220" height="56" rx="7" fill="#37474f" stroke="#263238" stroke-width="2"/>
+  <text x="505" y="222" font-size="14" fill="white" font-weight="bold" text-anchor="middle">PMC (폴리미래)</text>
+  <text x="505" y="239" font-size="10.5" fill="#b0bec5" text-anchor="middle">DL케미칼 50% / LYB 50%</text>
+
+  <!-- SKA → UPP 화살표 (50%-1주) -->
+  <line x1="175" y1="240" x2="235" y2="305" stroke="#546e7a" stroke-width="2.5" marker-end="url(#ska-gy)"/>
+  <text x="177" y="283" font-size="11" fill="#546e7a" font-weight="600">50%-1주</text>
+
+  <!-- PMC → UPP 화살표 (50%+1주) -->
+  <line x1="450" y1="251" x2="365" y2="305" stroke="#37474f" stroke-width="2.5" marker-end="url(#ska-dk)"/>
+  <text x="437" y="286" font-size="11" fill="#37474f" font-weight="600">50%+1주</text>
+
+  <!-- ═══ UPP 박스 ═══ -->
+  <rect x="205" y="305" width="230" height="58" rx="7" fill="#455a64" stroke="#263238" stroke-width="2.5"/>
+  <text x="320" y="331" font-size="16" fill="white" font-weight="bold" text-anchor="middle">UPP (울산PP)</text>
+  <text x="320" y="350" font-size="11" fill="#b0bec5" text-anchor="middle">울산 PP 플랜트 운영</text>
 </svg>`;
 }
 
@@ -421,7 +398,18 @@ function applyAndRender() {
 
   if (searchQuery) {
     const q = searchQuery.toLowerCase();
-    const matched = new Set(result.filter(c => c.name.toLowerCase().includes(q)).map(c => c.id));
+    const matchesQuery = (c) => {
+      const text = [
+        c.name || '',
+        c.location || '',
+        c.description || '',
+        (c.recent_issues || '').replace(/<[^>]+>/g, ''),
+        c.equity_structure || '',
+        ...(c.bod || []).map(b => b.name + ' ' + b.role),
+      ].join(' ').toLowerCase();
+      return text.includes(q);
+    };
+    const matched = new Set(result.filter(matchesQuery).map(c => c.id));
     matched.forEach(id => {
       const c = allCompanies.find(x => x.id === id);
       if (c?.parent_id) matched.add(c.parent_id);
@@ -522,7 +510,7 @@ function openPanel(id) {
     <hr class="panel-divider">
     <table class="panel-table">
       <tr><th>지분율</th><td>${fmtRatio(c.equity_ratio)}</td></tr>
-      <tr><th>장부가</th><td>${fmt(c.book_value)}</td></tr>
+      <tr><th>장부가</th><td>${fmtBook(c)}</td></tr>
       ${investedRow}
       <tr><th>투자 시점</th><td>${c.investment_date || '-'}</td></tr>
       ${locationRow}
