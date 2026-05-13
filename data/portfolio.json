@@ -224,7 +224,7 @@
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": "대주주(Vopak)와의 협의 필요",
-      "recent_issues": "Vopak이 '25년 4분기 한국 터미널 사업 매각 완료(EUR 15M 손실 기록). SK가스 보유 20% 지분 처리 여부 별도 확인 필요.",
+      "recent_issues": "• '25년 4분기 Vopak, 한국 터미널 사업 매각 완료 (EUR 15M 손실 기록)\n• SK가스 보유 20% 지분 처리 여부 별도 확인 필요",
       "last_updated": "2026-05-13",
       "description": "글로벌 저장탱크 운영사 Vopak과 SK가스의 합작 국내 최대 액체화물 저장 터미널. 석유화학제품 저장·물류 서비스 제공."
     },
@@ -336,7 +336,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'24.11 상업운전 개시. 440만배럴 탱크터미널 대여 계약 완료. '26년 LNG저장탱크 추가 완공 시 575만배럴로 확장 예정(LNG+LPG 복합 에너지 허브). <a href='https://www.moneys.co.kr/article/2025110116541885442' target='_blank' rel='noopener'>머니S: 에너지 허브로 진화한 KET</a> | <a href='https://zdnet.co.kr/view/?no=20250327141407' target='_blank' rel='noopener'>ZDNet: SK가스 LNG 야심</a>",
+      "recent_issues": "• '24.11 상업운전 개시\n• 440만배럴 탱크터미널 대여 계약 완료\n• '26년 LNG저장탱크 추가 완공 시 575만배럴로 확장 예정 (LNG+LPG 복합 에너지 허브)\n• <a href='https://www.moneys.co.kr/article/2025110116541885442' target='_blank' rel='noopener'>머니S: 에너지 허브로 진화한 KET</a> | <a href='https://zdnet.co.kr/view/?no=20250327141407' target='_blank' rel='noopener'>ZDNet: SK가스 LNG 야심</a>",
       "last_updated": "2026-05-13",
       "description": "KET(코리아에너지터미널). 석유제품(납사·휘발유·경유 등)과 LNG를 동시에 입출하·저장·하역·송출할 수 있는 대규모 복합 에너지 터미널. 울산 북항 소재. 기 투자금 약 2,232억원."
     },
@@ -447,7 +447,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "【'25년 실적】매출 7,601억 / 세전이익 1,304억 / 가동준비율(입찰량/최대가능입찰량) 73% / 낙찰률(발전량/입찰량) 76%\n【'26년 계획】매출 8,393억 / 세전이익 1,725억 / 가동준비율 90% / 낙찰률 68%\n'25.11 KDB 풋옵션 행사 신청 → '25.12 완료. SK가스→KDB 336억 지급, 지분 100% 확대.<div class='extra-issue'>지분 일부 매각 중(5/29 deal 종결)이나 경영권 유지 예정</div>",
+      "recent_issues": "【'25년 실적】\n• 매출 7,601억 / 세전이익 1,304억\n• 가동준비율 73% / 낙찰률 76%\n\n【'26년 계획】\n• 매출 8,393억 / 세전이익 1,725억\n• 가동준비율 90% / 낙찰률 68%\n\n【지분 변동】\n• '25.11 KDB 풋옵션 행사 신청 → '25.12 완료\n• SK가스→KDB 336억 지급, 지분 100% 확대<div class='extra-issue'>지분 일부 매각 중(5/29 deal 종결)이나 경영권 유지 예정</div>",
       "last_updated": "2026-05-13",
       "description": "울산지피에스(UGPS). LNG·LPG 복합 연료 가스 발전소(1,227MW) 운영. '25.12 KDB 풋옵션 행사로 SK가스 100%."
     },
@@ -475,7 +475,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "【현안 1. 정산조정계수】표준투자비 산정 용역 진행 중(18개월). 인정투자비 4조원(임시) vs 실제 4.7조원. '27년 이내 확정 예정.\n【현안 2. 소송 3건】① 변동비회수소송: 이론효율 vs 실제효율 차이로 연 350~400억 연료비 미수취 → 전력거래소 상대 소송. ② O&M소송: 남동발전의 전력비·석탄회판매수익·인센티브 지급 거부 → 소송('24~). ③ EPC소송: SK에코플랜트가 GGP 상대 추가 공사비(1,985억 vs 4,062억 주장) 청구 → 감정평가 중.\n【현안 3. 이용률】석탄발전 이용률 약 5% (목표 92%). TF 구성해 GGP 생존·성장방안 수립 중.",
+      "recent_issues": "【현안 1. 정산조정계수】\n• 표준투자비 산정 용역 진행 중 (18개월)\n• 인정투자비 4조원(임시) vs 실제 4.7조원 → '27년 이내 확정 예정\n\n【현안 2. 소송 3건】\n• 변동비회수소송: 이론효율 vs 실제효율 차이로 연 350~400억 연료비 미수취 → 전력거래소 상대 소송\n• O&M소송: 남동발전의 전력비·석탄회판매수익·인센티브 지급 거부 → 소송('24~)\n• EPC소송: SK에코플랜트가 GGP 상대 추가 공사비(1,985억 vs 4,062억 주장) 청구 → 감정평가 중\n\n【현안 3. 이용률】\n• 석탄발전 이용률 약 5% (목표 92%)\n• TF 구성해 GGP 생존·성장방안 수립 중",
       "last_updated": "2026-05-13",
       "description": "고성그린파워(GGP). 경남 고성군 소재 2,080MW 석탄화력발전. GS글로벌과 합작 구조 (SKG 19%). 총 기 투자금 1,721억원."
     },
@@ -506,7 +506,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'23년 291억, '24년 95억, '25년 310억 투자. 총 기 투자금 696억.",
+      "recent_issues": "• '23년 291억 / '24년 95억 / '25년 310억 투자\n• 총 기 투자금 696억",
       "last_updated": "2026-05-13",
       "description": "미국 ESS(에너지저장장치) 및 전력 중개사업 법인. SK가스 80% + SK이터닉스 20% 보유. SA Grid Solutions, Great Kiskadee Storage 등 하위 ESS 프로젝트 보유."
     },
@@ -559,7 +559,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "【Great Kiskadee(SA Grid Solutions)】 총 투자비 1,543억 / SK가스 투자 351억. COD '25.1월. '25년 수익 목표 45억, 실적 -30억. '26년 수익 목표 60억. '26.3 가동률 95%.",
+      "recent_issues": "【Great Kiskadee (SA Grid Solutions)】\n• 총 투자비 1,543억 / SK가스 투자 351억\n• COD '25.1월\n• '25년 수익: 목표 45억, 실적 -30억\n• '26년 수익 목표 60억\n• '26.3 가동률 95%",
       "last_updated": "2026-05-13",
       "description": "Apex Clean Energy와 SK가스가 설립한 JV. ESS 프로젝트 파이낸싱(PF) 구조를 기획하고 주도하는 스폰서 법인."
     },
@@ -585,7 +585,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "총 투자비 1,366억 / SK가스 투자 302억. COD '26.12월 예정.",
+      "recent_issues": "• 총 투자비 1,366억 / SK가스 투자 302억\n• COD '26.12월 예정",
       "last_updated": "2026-05-13",
       "description": "SA Grid Solutions 산하 ESS 프로젝트 법인."
     },
@@ -718,7 +718,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'22.9 준공 후 정상 운영 중. 세계 최초 LPG·LNG 듀얼 연료전지(12.32MW). <a href='https://www.mtnews.net/news/articleView.html?idxno=14832' target='_blank' rel='noopener'>중부발전 LPG-LNG 듀얼모델 연료전지 기사</a>",
+      "recent_issues": "• '22.9 준공 후 정상 운영 중\n• 세계 최초 LPG·LNG 듀얼 연료전지 (12.32MW)\n• <a href='https://www.mtnews.net/news/articleView.html?idxno=14832' target='_blank' rel='noopener'>중부발전 LPG-LNG 듀얼모델 연료전지 기사</a>",
       "last_updated": "2026-05-13",
       "description": "광주광역시 소재 연료전지 발전소. LNG·LPG 복합 연료 기반 12.32MW 발전 운영."
     },
@@ -770,7 +770,7 @@
       "exit_target_year": null,
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
-      "recent_issues": "'24년 Series A Close: Pre-Money €15M / Post-Money €19M. 주요 고객 시멘트 회사. SKG와 Synergy 없음. 투자금 13억원 전액 손상 처리.",
+      "recent_issues": "• '24년 Series A Close: Pre-Money €15M / Post-Money €19M\n• 주요 고객: 시멘트 회사 (SKG와 Synergy 없음)\n• 투자금 13억원 전액 손상 처리",
       "last_updated": "2026-05-13",
       "description": "공장 에너지 효율화 소프트웨어 스페인 스타트업. 2019년 13억원 투자 후 전액 손상 처리."
     },
@@ -796,7 +796,7 @@
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
-      "recent_issues": "【'25.9 현황】'26년 Series B 내부 계획. Cash Runway 확보. 최근 Valuation 미확인. 전략적 Alignment 없음. Exit까지 3년 이상 소요 전망.",
+      "recent_issues": "【'25.9 현황】\n• '26년 Series B 내부 계획 / Cash Runway 확보\n• 최근 Valuation 미확인\n• 전략적 Alignment 없음\n• Exit까지 3년 이상 소요 전망",
       "last_updated": "2026-05-13",
       "description": "미국 상업용 빌딩 에너지 효율화 솔루션 스타트업. 2018~2019년 총 15억원 투자. 지분율 0.6%."
     },
@@ -822,7 +822,7 @@
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": "인수의향자 부재",
-      "recent_issues": "【'25.9 현황】'24년 Series C Post-Money €39.3M. M&A Phase 1 DD 진행 중(결과 시기 미정). 해사 PoC 탄력 못 받아 Pilot 종료. 투자금 23.5억 전액 손상 처리.",
+      "recent_issues": "【'25.9 현황】\n• '24년 Series C Post-Money €39.3M\n• M&A Phase 1 DD 진행 중 (결과 시기 미정)\n• 해사 PoC 탄력 못 받아 Pilot 종료\n• 투자금 23.5억 전액 손상 처리",
       "last_updated": "2026-05-13",
       "description": "빅데이터 기반 공장·상업용 빌딩 에너지 효율화 프랑스 AI 스타트업. 2020년 투자 후 전액 손상 처리."
     },
@@ -883,7 +883,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'26.4 울산하이드로젠파워1호(20MW) 상업운전 개시. '25.6 울산하이드로젠파워2호(20MW) 상업운전 개시. '26.12까지 80MW 종합 준공 목표. <a href='https://biz.heraldcorp.com/article/10715470' target='_blank' rel='noopener'>헤럴드경제: 두 번째 수소 연료전지 발전소 상업운전</a>",
+      "recent_issues": "• '25.6 울산하이드로젠파워2호 (20MW) 상업운전 개시\n• '26.4 울산하이드로젠파워1호 (20MW) 상업운전 개시\n• '26.12까지 80MW 종합 준공 목표\n• <a href='https://biz.heraldcorp.com/article/10715470' target='_blank' rel='noopener'>헤럴드경제: 두 번째 수소 연료전지 발전소 상업운전</a>",
       "last_updated": "2026-05-13",
       "description": "수소 연료전지 발전 및 수송용 수소 사업 합작법인(롯데케미칼 50%+SK가스 50%). 울산에너루트2호 등 자회사를 통해 연료전지 발전 운영. 기 투자금 약 529억원."
     },
@@ -1097,7 +1097,7 @@
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "'26.2 현 시점 매각 시급성 낮고 경영권 프리미엄 확보 가능성 등 고려하여 홀딩 결정. 미래 사업 연계 가능성 논의 예정 (w/DY). '25년 영업이익·순이익 흑자전환. <a href='https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A453450' target='_blank' rel='noopener'>그리드위즈 기업정보(FNGuide)</a>",
+      "recent_issues": "• '26.2 매각 시급성 낮고 경영권 프리미엄 확보 가능성 고려 → 홀딩 결정\n• 미래 사업 연계 가능성 논의 예정 (w/DY)\n• '25년 영업이익·순이익 흑자전환\n• <a href='https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A453450' target='_blank' rel='noopener'>그리드위즈 기업정보(FNGuide)</a>",
       "last_updated": "2026-05-13",
       "description": "에너지 데이터 기반 전력 수요관리(DR), ESS, 전기차 충전 서비스 기업. KOSDAQ 상장사."
     },
@@ -1123,7 +1123,7 @@
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": null,
-      "recent_issues": "【경영현황 ('25년)】매출 $195M, EBITDA $158M, 당기순이익 $70M. PF 차입 잔액 $4.5억불. '30년 상반기 PF 상환 완료 예정.\n【매각 경과】'25.12 Q사의 지속적 계약변경 요구로 최종 Deal Drop. '29년부터 3차 매각 본격 추진. YM 구조조정 합의서 체결로 잠재리스크 완화.",
+      "recent_issues": "【경영현황 ('25년)】\n• 매출 $195M / EBITDA $158M / 당기순이익 $70M\n• PF 차입 잔액 $4.5억불, '30년 상반기 상환 완료 예정\n\n【매각 경과】\n• '25.12 Q사의 지속적 계약변경 요구로 최종 Deal Drop\n• '29년부터 3차 매각 본격 추진\n• YM 구조조정 합의서 체결로 잠재리스크 완화",
       "last_updated": "2026-05-13",
       "description": "이스탄불 보스포루스 해협 5.4km 복층 자동차 전용 해저터널 운영사(ATAS). SK Holdco를 통해 우선주 36.5% 간접 보유 (총 $52M, 약 596억원)."
     },
@@ -1255,7 +1255,7 @@
       "exit_target_year": 2026,
       "exit_status": "Exit 완료",
       "exit_pending_reason": null,
-      "recent_issues": "'26.3 Exit 완료. 매수인 휴맥스모빌리티. 10억원 투자 / 10억원 전액 회수 (원금 보전). 양도차익 없어 양도소득세 없음. 증권거래세 약 350만원.",
+      "recent_issues": "• '26.3 Exit 완료 (매수인: 휴맥스모빌리티)\n• 10억원 투자 → 10억원 전액 회수 (원금 보전)\n• 양도차익 없어 양도소득세 없음 / 증권거래세 약 350만원",
       "last_updated": "2026-05-13",
       "description": "반반택시·대리운전 플랫폼 운영사. 2020.4월 10억원 투자. '26.3.31 휴맥스모빌리티 매각으로 Exit 완료."
     },
@@ -1336,7 +1336,7 @@
       "exit_target_year": null,
       "exit_status": "법인 파산 절차 중, 풋옵션 행사로 회수 노력 중",
       "exit_pending_reason": "전액 평가손실 인식, 원금 회수 사실상 불가",
-      "recent_issues": "'25.12 전환사채 47.007억원 전액 손상처리. '21~'24 누적 손실 504억, '25H1 자본잠식 95억. '25.7 이후 이자·원금 연체. 외부감사 의견거절('25.12.3). 담보(택시 자회사 지분 2순위, 부동산 3순위) 실질 회수 가치 없음.",
+      "recent_issues": "• '25.12 전환사채 47.007억원 전액 손상처리\n• '21~'24 누적 손실 504억 / '25H1 자본잠식 95억\n• '25.7 이후 이자·원금 연체\n• '25.12.3 외부감사 의견거절\n• 담보(택시 자회사 지분 2순위, 부동산 3순위) 실질 회수 가치 없음",
       "last_updated": "2026-05-13",
       "description": "'아이엠택시' 택시 호출 서비스 운영사. 2022.4월 CB 52억원 투자. '25.12 전액 평가손실 인식(장부가 0원). 원금 회수 불투명."
     },
@@ -1362,7 +1362,7 @@
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": null,
-      "recent_issues": "'25년까지 매각예정자산으로 분류 → '26년 철회. 투자회사 관리 영역으로 편입.",
+      "recent_issues": "• '25년까지 매각예정자산으로 분류 → '26년 철회\n• 투자회사 관리 영역으로 편입",
       "last_updated": "2026-05-13",
       "description": "유라시아터널 지분을 간접 보유하는 해외 SPC."
     }
