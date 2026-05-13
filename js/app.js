@@ -409,10 +409,13 @@ function applyAndRender() {
       ].join(' ').toLowerCase();
       return text.includes(q);
     };
-    const matched = new Set(result.filter(matchesQuery).map(c => c.id));
-    matched.forEach(id => {
+    const directMatches = new Set(result.filter(matchesQuery).map(c => c.id));
+    const matched = new Set(directMatches);
+    directMatches.forEach(id => {
       const c = allCompanies.find(x => x.id === id);
+      // 직접 매칭된 자식 → 부모만 추가 (형제는 추가 안 함)
       if (c?.parent_id) matched.add(c.parent_id);
+      // 직접 매칭된 부모 → 자식 추가
       allCompanies.filter(x => x.parent_id === id).forEach(x => matched.add(x.id));
     });
     result = result.filter(c => matched.has(c.id));
