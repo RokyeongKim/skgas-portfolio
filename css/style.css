@@ -276,12 +276,30 @@ body {
   color: #1b5e20;
 }
 
+/* === 아이콘 범례 === */
+.icon-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  width: fit-content;
+  font-size: 11px;
+  color: #555;
+}
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-icon { font-size: 8px; color: #555; }
+.legend-sep { color: #d0d0d0; }
+
 /* === 크로스-섹터 부모 헤더 (SKGU 등 타 섹터 부모 표시) === */
 .cross-parent-header {
   margin-top: 6px;
   padding: 5px 10px;
-  background: rgba(255, 167, 38, 0.08);
-  border: 1px dashed #ffa726;
+  background: #f0f0f0;
+  border: 1px solid #757575;
   border-radius: 5px;
   cursor: pointer;
   display: flex;
@@ -289,9 +307,9 @@ body {
   justify-content: space-between;
   transition: background 0.15s;
 }
-.cross-parent-header:hover { background: rgba(255, 167, 38, 0.2); }
-.cross-parent-name { font-size: 11px; font-weight: 700; color: #e65100; }
-.cross-parent-sub { font-size: 10px; color: #ffa726; font-style: italic; }
+.cross-parent-header:hover { background: #e0e0e0; }
+.cross-parent-name { font-size: 11px; font-weight: 700; color: #424242; }
+.cross-parent-sub { font-size: 10px; color: #616161; font-style: italic; }
 
 /* === 반응형 (좁은 화면) === */
 @media (max-width: 1200px) {
