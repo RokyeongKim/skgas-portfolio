@@ -51,6 +51,7 @@
       "exit_pending_reason": null,
       "recent_issues": "• 중동주주(AGIC·PIC)와의 견해 차이로 의사결정·실행 지연\n• 증자·영구채·신용보강 등 유동성 대응·EOD 방지 대책에 미동의\n• 지배구조 Controllability 확보 위해 AGIC·PIC 지분 인수 결정\n• PIC '26.2 Exit, AGIC '26.4 Exit → SK가스 100%",
       "last_updated": "2026-05-13",
+      "contact_person": "기획팀 이우식M (SKA), 기획팀 이우식M (UPP)",
       "description": "PDH(프로판 탈수소화)를 통한 프로필렌 생산. 법인 설립 2014년, 공장 가동 2016년~. 총 투자비 9,702억 (D:E=6:4). '26.4 중동주주(AGIC·PIC) 지분 전량 인수로 SK가스 100% 전환.\n※ UPP(울산PP, 자회사): SKA 50%-1주 + PMC(폴리미래, DL케미칼 50%·LYB 50%) 50%+1주. UPP BOD: 이사 손철승, 김철진."
     },
     {
@@ -82,6 +83,7 @@
       "exit_pending_reason": null,
       "recent_issues": null,
       "last_updated": "2026-05-13",
+      "contact_person": "사업관리그룹 홍학규M",
       "description": "SK가스의 해외법인 및 투자 플랫폼(SKGU). Carbon Lighthouse, Metron, Optimitive, Graphitic Energy 등 미국·유럽 에너지 스타트업 투자사의 상위 지주 역할."
     },
     {
@@ -140,6 +142,7 @@
       "exit_pending_reason": null,
       "recent_issues": null,
       "last_updated": "2026-05-13",
+      "contact_person": "Trading 지원그룹 박준범M",
       "description": "SK가스의 싱가포르 현지법인(SKGI). 글로벌 에너지 트레이딩 및 투자, 해외 신사업 담당. APOC JV 등 해외 석유화학 투자 주도."
     },
     {
@@ -155,23 +158,20 @@
       "invested_amount": null,
       "location": "싱가포르",
       "website": null,
-      "bod_participation": null,
-      "bod": [
-        {"role": "이사", "name": "김철진"},
-        {"role": "이사", "name": "손철승"},
-        {"role": "이사", "name": "김유진"}
-      ],
-      "investment_purpose": null,
-      "equity_structure": null,
-      "exit_plan": null,
+      "bod_participation": "GP 주식 및 대표자 등 상세 정보는 SKGI 확인 필요",
+      "bod": [],
+      "investment_purpose": "APOC 투자를 위해 설립된 SPC(페이퍼컴퍼니). SKG→SKGI→SKGP 경로로 출자.",
+      "equity_structure": "SKGI 100% 보유 (GP 주식은 SKGI에서 별도 관리)",
+      "exit_plan": "'26.3 APOC 풋옵션 행사 완료로 실질적 역할 종료. 향후 처리 방향 SKGI 확인 필요.",
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": null,
-      "last_updated": "2026-05-13",
-      "description": "APOC JV에 투자하기 위한 SPC(SKGP). SKG→SKGI→SKGP 경로로 출자."
+      "recent_issues": "'26.3 APOC 풋옵션 행사 완료로 SKGP의 실질적 역할 소멸. 페이퍼컴퍼니로서 유지 여부 및 청산 검토 필요. 주식수·대표자 등 법인 상세 정보는 SKGI 확인 요망.",
+      "last_updated": "2026-05-20",
+      "contact_person": "Trading 지원그룹 박준범M",
+      "description": "APOC(사우디 PDH/PP JV) 투자를 위해 설립된 SPC(페이퍼컴퍼니). SKG→SKGI→SKGP 경로로 APOC에 출자. '26.3 APOC 풋옵션 행사 완료로 실질적 효용 소멸. GP 주식 및 주주·대표자 정보는 SKGI 확인 필요."
     },
     {
       "id": "apoc",
@@ -200,6 +200,7 @@
       "exit_pending_reason": null,
       "recent_issues": "'26.3 AGIC Exit 및 부동산 매각 완료. 투자금액 변경 공시 종결.<div class='extra-issue'>【배경】2011년 AGIC가 SKA에 지분투자를 진행했고, 유사한 맥락에서 SKG 역시 2021~2022년 AGIC의 PDH·PP 공장(APOC)에 지분투자를 진행—상호 지분투자 관계. 이후 AGIC가 SKA에서 Exit하면서 SKG 또한 '26년 3월 APOC 풋옵션을 행사하여 Exit 완료.</div>",
       "last_updated": "2026-05-13",
+      "contact_person": "오승은M",
       "description": "사우디 주베일(Jubail)에 PDH·PP·IPA 공장을 건설·운영하는 합작법인(JV). BOD AGIC 4석/SK가스 2석. '21년 $60M, '22년 $42M 출자 (합계 약 $103M, 약 1,244억원)."
     },
     {
@@ -308,6 +309,7 @@
       "exit_pending_reason": null,
       "recent_issues": null,
       "last_updated": "2026-05-13",
+      "contact_person": "전우승M",
       "description": "고성그린파워(GGP) 연료(석탄) 소싱 전담 법인. GGP가 적자일 때 지에너지가 보완하는 구조로 단독 매각 어려움."
     },
     {
@@ -338,6 +340,7 @@
       "exit_pending_reason": null,
       "recent_issues": "• '24.11 상업운전 개시\n• 440만배럴 탱크터미널 대여 계약 완료\n• '26년 LNG저장탱크 추가 완공 시 575만배럴로 확장 예정 (LNG+LPG 복합 에너지 허브)\n• <a href='https://www.moneys.co.kr/article/2025110116541885442' target='_blank' rel='noopener'>머니S: 에너지 허브로 진화한 KET</a> | <a href='https://zdnet.co.kr/view/?no=20250327141407' target='_blank' rel='noopener'>ZDNet: SK가스 LNG 야심</a>",
       "last_updated": "2026-05-13",
+      "contact_person": "정재원M",
       "description": "KET(코리아에너지터미널). 석유제품(납사·휘발유·경유 등)과 LNG를 동시에 입출하·저장·하역·송출할 수 있는 대규모 복합 에너지 터미널. 울산 북항 소재. 기 투자금 약 2,232억원."
     },
     {
@@ -388,6 +391,7 @@
       "exit_pending_reason": null,
       "recent_issues": null,
       "last_updated": "2026-05-13",
+      "contact_person": "정지석M",
       "description": "경동도시가스와 합작 설립된 LNG 배관 O&M 투자회사. 울산 북항 LNG터미널~산업단지 천연가스 배관망 유지·관리."
     },
     {
@@ -417,6 +421,7 @@
       "exit_pending_reason": null,
       "recent_issues": null,
       "last_updated": "2026-05-13",
+      "contact_person": "윤제웅M",
       "description": "에코마린퓨얼솔루션(EMFS). SK가스 LNG 벙커링 자회사. KET에서 LNG를 조달해 친환경 선박에 연료 공급. 2027년 COD 목표."
     },
     {
@@ -449,6 +454,7 @@
       "exit_pending_reason": null,
       "recent_issues": "【'25년 실적】\n• 매출 7,601억 / 세전이익 1,304억\n• 가동준비율 73% / 낙찰률 76%\n\n【'26년 계획】\n• 매출 8,393억 / 세전이익 1,725억\n• 가동준비율 90% / 낙찰률 68%\n\n【지분 변동】\n• '25.11 KDB 풋옵션 행사 신청 → '25.12 완료\n• SK가스→KDB 336억 지급, 지분 100% 확대<div class='extra-issue'>지분 일부 매각 중(5/29 deal 종결)이나 경영권 유지 예정</div>",
       "last_updated": "2026-05-13",
+      "contact_person": "UGPS 최민영M",
       "description": "울산지피에스(UGPS). LNG·LPG 복합 연료 가스 발전소(1,227MW) 운영. '25.12 KDB 풋옵션 행사로 SK가스 100%."
     },
     {
@@ -477,6 +483,7 @@
       "exit_pending_reason": null,
       "recent_issues": "【현안 1. 정산조정계수】\n• 표준투자비 산정 용역 진행 중 (18개월)\n• 인정투자비 4조원(임시) vs 실제 4.7조원 → '27년 이내 확정 예정\n\n【현안 2. 소송 3건】\n• 변동비회수소송: 이론효율 vs 실제효율 차이로 연 350~400억 연료비 미수취 → 전력거래소 상대 소송\n• O&M소송: 남동발전의 전력비·석탄회판매수익·인센티브 지급 거부 → 소송('24~)\n• EPC소송: SK에코플랜트가 GGP 상대 추가 공사비(1,985억 vs 4,062억 주장) 청구 → 감정평가 중\n\n【현안 3. 이용률】\n• 석탄발전 이용률 약 5% (목표 92%)\n• TF 구성해 GGP 생존·성장방안 수립 중",
       "last_updated": "2026-05-13",
+      "contact_person": "최영윤M",
       "description": "고성그린파워(GGP). 경남 고성군 소재 2,080MW 석탄화력발전. GS글로벌과 합작 구조 (SKG 19%). 총 기 투자금 1,721억원."
     },
     {
@@ -508,6 +515,7 @@
       "exit_pending_reason": null,
       "recent_issues": "• '23년 291억 / '24년 95억 / '25년 310억 투자\n• 총 기 투자금 696억",
       "last_updated": "2026-05-13",
+      "contact_person": "이창원M",
       "description": "미국 ESS(에너지저장장치) 및 전력 중개사업 법인. SK가스 80% + SK이터닉스 20% 보유. SA Grid Solutions, Great Kiskadee Storage 등 하위 ESS 프로젝트 보유."
     },
     {
@@ -719,6 +727,7 @@
       "exit_pending_reason": null,
       "recent_issues": "• '26.2 매각 시급성 낮고 경영권 프리미엄 확보 가능성 고려 → 홀딩 결정\n• 미래 사업 연계 가능성 논의 예정 (w/DY)\n• '25년 영업이익·순이익 흑자전환\n• <a href='https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?gicode=A453450' target='_blank' rel='noopener'>그리드위즈 기업정보(FNGuide)</a>",
       "last_updated": "2026-05-13",
+      "contact_person": "기획팀 박상현M",
       "description": "에너지 데이터 기반 전력 수요관리(DR), ESS, 전기차 충전 서비스 기업. KOSDAQ 상장사."
     },
     {
@@ -748,6 +757,7 @@
       "exit_pending_reason": null,
       "recent_issues": "• '22.9 준공 후 정상 운영 중\n• 세계 최초 LPG·LNG 듀얼 연료전지 (12.32MW)\n• <a href='https://www.mtnews.net/news/articleView.html?idxno=14832' target='_blank' rel='noopener'>중부발전 LPG-LNG 듀얼모델 연료전지 기사</a>",
       "last_updated": "2026-05-13",
+      "contact_person": "시장개발그룹 이영석AL",
       "description": "광주광역시 소재 연료전지 발전소. LNG·LPG 복합 연료 기반 12.32MW 발전 운영."
     },
     {
@@ -883,6 +893,7 @@
       "exit_pending_reason": null,
       "recent_issues": "'25.12 KDB 풋옵션 행사 완료 → SK가스 지분 54.87%→66% 확대 (동서발전 34% 유지, KDB 지분 소멸).",
       "last_updated": "2026-05-13",
+      "contact_person": "기획팀 김노경M",
       "description": "친환경 태양광 발전소 운영. 총 기 투자금 약 2,362억원."
     },
     {
@@ -913,6 +924,7 @@
       "exit_pending_reason": null,
       "recent_issues": "• '25.6 울산하이드로젠파워2호 (20MW) 상업운전 개시\n• '26.4 울산하이드로젠파워1호 (20MW) 상업운전 개시\n• '26.12까지 80MW 종합 준공 목표\n• <a href='https://biz.heraldcorp.com/article/10715470' target='_blank' rel='noopener'>헤럴드경제: 두 번째 수소 연료전지 발전소 상업운전</a>",
       "last_updated": "2026-05-13",
+      "contact_person": "권오상M",
       "description": "수소 연료전지 발전 및 수송용 수소 사업 합작법인(롯데케미칼 50%+SK가스 50%). 울산에너루트2호 등 자회사를 통해 연료전지 발전 운영. 기 투자금 약 529억원."
     },
     {
@@ -1047,6 +1059,7 @@
       "exit_pending_reason": null,
       "recent_issues": "청산 절차 진행 중",
       "last_updated": "2026-05-13",
+      "contact_person": "기획팀 박상현M",
       "description": "청록수소(메탄 열분해) 기술 스타트업. 메탄 열분해를 통해 수소와 고체 탄소를 동시 생산. 현재 청산 절차 진행 중. 기 투자금 약 244억."
     },
     {
@@ -1153,6 +1166,7 @@
       "exit_pending_reason": null,
       "recent_issues": null,
       "last_updated": "2026-05-13",
+      "contact_person": "기획팀 윤종운M",
       "description": "중소기업 자금지원·매출채권 양수 및 관리·팩토링 금융서비스를 제공하는 여신금융회사."
     },
     {
@@ -1312,6 +1326,7 @@
       "exit_pending_reason": null,
       "recent_issues": null,
       "last_updated": "2026-05-13",
+      "contact_person": "정기윤M",
       "description": "SK가스·E1이 공동 설립한 LPG산업 협회. LPG산업 안전관리·정책 개발·회원사 권익보호 담당."
     },
     {

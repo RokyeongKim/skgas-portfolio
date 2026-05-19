@@ -570,6 +570,7 @@ function openPanel(id) {
     ${exitPlanHtml}
     ${pipelineHtml}
     ${issuesHtml}
+    ${c.contact_person ? `<p class="panel-section-title">실무 담당자</p><div class="panel-description">${c.contact_person}</div>` : ''}
     <p class="panel-updated">최종 업데이트: ${c.last_updated || '-'}</p>
   `;
 
