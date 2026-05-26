@@ -162,7 +162,7 @@ function renderMinorHoldings() {
 // =====================================================
 function getSkaSvg() {
   return `
-<svg viewBox="0 0 720 415" xmlns="http://www.w3.org/2000/svg"
+<svg viewBox="0 0 720 490" xmlns="http://www.w3.org/2000/svg"
   style="width:100%;border:1px solid #dde4ec;border-radius:8px;background:#f8fafc;margin:6px 0;font-family:'Malgun Gothic','맑은 고딕',sans-serif">
 
   <defs>
@@ -175,6 +175,9 @@ function getSkaSvg() {
     <marker id="ska-dk" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
       <path d="M0,0 L9,4.5 L0,9 Z" fill="#37474f"/>
     </marker>
+    <marker id="ska-re" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#c62828"/>
+    </marker>
   </defs>
 
   <!-- ═══ 제목 배너 ═══ -->
@@ -186,8 +189,8 @@ function getSkaSvg() {
   <rect x="26" y="44" width="148" height="20" rx="4" fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
   <text x="100" y="58" font-size="10.5" fill="#c62828" text-anchor="middle" font-weight="700">EXIT 완료</text>
 
-  <rect x="546" y="44" width="148" height="20" rx="4" fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
-  <text x="620" y="58" font-size="10.5" fill="#c62828" text-anchor="middle" font-weight="700">EXIT 완료</text>
+  <rect x="376" y="44" width="118" height="20" rx="4" fill="#ffebee" stroke="#ef9a9a" stroke-width="1"/>
+  <text x="435" y="58" font-size="10.5" fill="#c62828" text-anchor="middle" font-weight="700">EXIT 완료</text>
 
   <!-- ═══ AGIC 박스 (회색, 연하게) ═══ -->
   <rect x="26" y="68" width="148" height="62" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
@@ -195,48 +198,65 @@ function getSkaSvg() {
   <text x="100" y="114" font-size="11" fill="#bdbdbd" text-anchor="middle">지분 30% | '26.4 Exit</text>
 
   <!-- ═══ SK가스 박스 (중앙, 파란색) ═══ -->
-  <rect x="270" y="44" width="180" height="86" rx="7" fill="#1565c0" stroke="#0d47a1" stroke-width="2.5"/>
-  <text x="360" y="78" font-size="18" fill="white" font-weight="bold" text-anchor="middle">SK가스</text>
-  <text x="360" y="98" font-size="11" fill="#bbdefb" text-anchor="middle">지분 45% → 현재 100%</text>
-  <text x="360" y="117" font-size="10" fill="#bbdefb" text-anchor="middle">지배주주</text>
+  <rect x="200" y="44" width="160" height="86" rx="7" fill="#1565c0" stroke="#0d47a1" stroke-width="2.5"/>
+  <text x="280" y="78" font-size="18" fill="white" font-weight="bold" text-anchor="middle">SK가스</text>
+  <text x="280" y="98" font-size="11" fill="#bbdefb" text-anchor="middle">지분 45% → 현재 100%</text>
+  <text x="280" y="117" font-size="10" fill="#bbdefb" text-anchor="middle">지배주주</text>
 
   <!-- ═══ PIC 박스 (회색, 연하게) ═══ -->
-  <rect x="546" y="68" width="148" height="62" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
-  <text x="620" y="95" font-size="15" fill="#9e9e9e" font-weight="bold" text-anchor="middle">PIC</text>
-  <text x="620" y="114" font-size="11" fill="#bdbdbd" text-anchor="middle">지분 25% | '26.2 Exit</text>
+  <rect x="376" y="68" width="118" height="62" rx="6" fill="#f5f5f5" stroke="#bdbdbd" stroke-width="1.5"/>
+  <text x="435" y="95" font-size="15" fill="#9e9e9e" font-weight="bold" text-anchor="middle">PIC</text>
+  <text x="435" y="114" font-size="11" fill="#bdbdbd" text-anchor="middle">지분 25% | '26.2 Exit</text>
+
+  <!-- ═══ 대림(DL케미칼) 박스 (붉은 테두리) ═══ -->
+  <rect x="510" y="44" width="100" height="50" rx="6" fill="#fff8f8" stroke="#c62828" stroke-width="2"/>
+  <text x="560" y="68" font-size="12" fill="#c62828" font-weight="700" text-anchor="middle">대림(DL케미칼)</text>
+  <text x="560" y="85" font-size="11" fill="#c62828" font-weight="700" text-anchor="middle">50%</text>
+
+  <!-- ═══ LYB(라이언델바젤) 박스 (붉은 테두리) ═══ -->
+  <rect x="618" y="44" width="96" height="50" rx="6" fill="#fff8f8" stroke="#c62828" stroke-width="2"/>
+  <text x="666" y="63" font-size="11" fill="#c62828" font-weight="700" text-anchor="middle">LYB</text>
+  <text x="666" y="78" font-size="10" fill="#c62828" font-weight="600" text-anchor="middle">(라이언델바젤)</text>
+  <text x="666" y="91" font-size="11" fill="#c62828" font-weight="700" text-anchor="middle">50%</text>
 
   <!-- AGIC → SKA 화살표 (회색 점선) -->
-  <line x1="100" y1="130" x2="182" y2="195" stroke="#bdbdbd" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ska-gy)"/>
+  <line x1="100" y1="130" x2="140" y2="195" stroke="#bdbdbd" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ska-gy)"/>
 
   <!-- SK가스 → SKA 화살표 (파란색) -->
-  <line x1="348" y1="130" x2="278" y2="195" stroke="#1565c0" stroke-width="2.8" marker-end="url(#ska-bl)"/>
-  <text x="289" y="170" font-size="12" fill="#1565c0" font-weight="700">100%</text>
+  <line x1="270" y1="130" x2="240" y2="195" stroke="#1565c0" stroke-width="2.8" marker-end="url(#ska-bl)"/>
+  <text x="237" y="168" font-size="12" fill="#1565c0" font-weight="700">100%</text>
 
   <!-- PIC → SKA 화살표 (회색 점선) -->
-  <line x1="620" y1="130" x2="370" y2="195" stroke="#bdbdbd" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ska-gy)"/>
+  <line x1="435" y1="130" x2="340" y2="195" stroke="#bdbdbd" stroke-width="1.8" stroke-dasharray="5,3" marker-end="url(#ska-gy)"/>
+
+  <!-- 대림 → PMC 화살표 (붉은색) -->
+  <line x1="560" y1="94" x2="560" y2="210" stroke="#c62828" stroke-width="1.8" marker-end="url(#ska-re)"/>
+
+  <!-- LYB → PMC 화살표 (붉은색) -->
+  <line x1="666" y1="94" x2="640" y2="210" stroke="#c62828" stroke-width="1.8" marker-end="url(#ska-re)"/>
 
   <!-- ═══ SKA 박스 ═══ -->
-  <rect x="95" y="195" width="350" height="65" rx="7" fill="#283593" stroke="#1a237e" stroke-width="2.5"/>
-  <text x="270" y="224" font-size="16" fill="white" font-weight="bold" text-anchor="middle">에스케이어드밴스드 (SKA)</text>
-  <text x="270" y="243" font-size="10.5" fill="#c5cae9" text-anchor="middle">PDH → 프로필렌 생산 | 울산 | 설립 2014 / 가동 2016~</text>
+  <rect x="60" y="195" width="360" height="65" rx="7" fill="#283593" stroke="#1a237e" stroke-width="2.5"/>
+  <text x="240" y="224" font-size="15" fill="white" font-weight="bold" text-anchor="middle">에스케이어드밴스드 (SKA)</text>
+  <text x="240" y="243" font-size="10" fill="#c5cae9" text-anchor="middle">PDH → 프로필렌 생산 | 울산 | 설립 2014 / 가동 2016~</text>
 
-  <!-- ═══ PMC 박스 ═══ -->
-  <rect x="467" y="207" width="210" height="53" rx="7" fill="#37474f" stroke="#263238" stroke-width="2"/>
-  <text x="572" y="233" font-size="13" fill="white" font-weight="bold" text-anchor="middle">PMC (폴리미래)</text>
-  <text x="572" y="250" font-size="10" fill="#b0bec5" text-anchor="middle">DL케미칼 50% / LYB 50%</text>
+  <!-- ═══ PMC (폴리미래) 박스 ═══ -->
+  <rect x="500" y="210" width="210" height="50" rx="7" fill="#37474f" stroke="#263238" stroke-width="2"/>
+  <text x="605" y="232" font-size="12" fill="white" font-weight="bold" text-anchor="middle">PMC (폴리미래)</text>
+  <text x="605" y="250" font-size="10" fill="#ef9a9a" text-anchor="middle">대림 50% · LYB(라이언델바젤) 50%</text>
 
   <!-- SKA → UPP 화살표 (50%-1주) -->
-  <line x1="210" y1="260" x2="297" y2="325" stroke="#546e7a" stroke-width="2.5" marker-end="url(#ska-gy)"/>
-  <text x="224" y="300" font-size="11" fill="#546e7a" font-weight="600">50%-1주</text>
+  <line x1="190" y1="260" x2="300" y2="390" stroke="#546e7a" stroke-width="2.5" marker-end="url(#ska-gy)"/>
+  <text x="214" y="330" font-size="11" fill="#546e7a" font-weight="600">50%-1주</text>
 
   <!-- PMC → UPP 화살표 (50%+1주) -->
-  <line x1="520" y1="260" x2="400" y2="325" stroke="#37474f" stroke-width="2.5" marker-end="url(#ska-dk)"/>
-  <text x="477" y="298" font-size="11" fill="#37474f" font-weight="600">50%+1주</text>
+  <line x1="535" y1="260" x2="425" y2="390" stroke="#37474f" stroke-width="2.5" marker-end="url(#ska-dk)"/>
+  <text x="500" y="325" font-size="11" fill="#37474f" font-weight="600">50%+1주</text>
 
   <!-- ═══ UPP 박스 ═══ -->
-  <rect x="238" y="325" width="220" height="58" rx="7" fill="#455a64" stroke="#263238" stroke-width="2.5"/>
-  <text x="348" y="352" font-size="15" fill="white" font-weight="bold" text-anchor="middle">UPP (울산PP)</text>
-  <text x="348" y="371" font-size="10.5" fill="#b0bec5" text-anchor="middle">울산 PP 플랜트 운영</text>
+  <rect x="255" y="390" width="220" height="58" rx="7" fill="#455a64" stroke="#263238" stroke-width="2.5"/>
+  <text x="365" y="417" font-size="15" fill="white" font-weight="bold" text-anchor="middle">UPP (울산PP)</text>
+  <text x="365" y="436" font-size="10.5" fill="#b0bec5" text-anchor="middle">울산 PP 플랜트 운영</text>
 </svg>`;
 }
 
