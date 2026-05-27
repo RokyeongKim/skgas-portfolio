@@ -903,7 +903,7 @@
       "type": "국내계열사",
       "parent_id": null,
       "book_value": 470.4,
-      "equity_ratio": 50.0,
+      "equity_ratio": 45.0,
       "investment_date": "2022~2024",
       "invested_amount": 529,
       "location": "서울 (합작법인)",
@@ -915,7 +915,7 @@
         {"role": "감사", "name": "이은서"}
       ],
       "investment_purpose": null,
-      "equity_structure": "롯데케미칼 50%, SK가스 50%",
+      "equity_structure": "SKG 45%, 롯데케미칼 45%, 에어리퀴드코리아 10%",
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
@@ -923,9 +923,9 @@
       "exit_status": null,
       "exit_pending_reason": null,
       "recent_issues": "• '25.6 울산하이드로젠파워2호 (20MW) 상업운전 개시\n• '26.4 울산하이드로젠파워1호 (20MW) 상업운전 개시\n• '26.12까지 80MW 종합 준공 목표\n• <a href='https://biz.heraldcorp.com/article/10715470' target='_blank' rel='noopener'>헤럴드경제: 두 번째 수소 연료전지 발전소 상업운전</a>",
-      "last_updated": "2026-05-13",
+      "last_updated": "2026-05-28",
       "contact_person": "권오상M",
-      "description": "수소 연료전지 발전 및 수송용 수소 사업 합작법인(롯데케미칼 50%+SK가스 50%). 울산에너루트2호 등 자회사를 통해 연료전지 발전 운영. 기 투자금 약 529억원."
+      "description": "수소 연료전지 발전 및 수송용 수소 사업 합작법인(SKG 45%, 롯데케미칼 45%, 에어리퀴드코리아 10%). 울산에너루트2호 등 자회사를 통해 연료전지 발전 운영. 기 투자금 약 529억원."
     },
     {
       "id": "ulsan-enerute2",
