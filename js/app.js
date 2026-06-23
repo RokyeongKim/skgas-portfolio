@@ -449,7 +449,7 @@ function getKdEcohubSvg() {
 // =====================================================
 function getAtasSvg() {
   return `
-<svg viewBox="0 0 720 500" xmlns="http://www.w3.org/2000/svg"
+<svg viewBox="0 0 760 540" xmlns="http://www.w3.org/2000/svg"
   style="width:100%;border:1px solid #dde4ec;border-radius:8px;background:#f8fafc;margin:6px 0;font-family:'Malgun Gothic','맑은 고딕',sans-serif">
 
   <defs>
@@ -459,108 +459,125 @@ function getAtasSvg() {
     <marker id="atas-gy" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
       <path d="M0,0 L9,4.5 L0,9 Z" fill="#78909c"/>
     </marker>
-    <marker id="atas-dk" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
-      <path d="M0,0 L9,4.5 L0,9 Z" fill="#37474f"/>
+    <marker id="atas-re" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#c62828"/>
     </marker>
   </defs>
 
   <!-- 제목 배너 -->
-  <rect x="0" y="0" width="720" height="36" rx="8" fill="#37474f"/>
-  <rect x="0" y="28" width="720" height="8" fill="#37474f"/>
-  <text x="360" y="23" font-size="13" fill="white" font-weight="bold" text-anchor="middle">유라시아 SPC (ATAS) 이해관계자 현황</text>
+  <rect x="0" y="0" width="760" height="36" rx="8" fill="#37474f"/>
+  <rect x="0" y="28" width="760" height="8" fill="#37474f"/>
+  <text x="380" y="23" font-size="13" fill="white" font-weight="bold" text-anchor="middle">유라시아 SPC (ATAS) 이해관계자 현황</text>
 
   <!-- YM 박스 (왼쪽) -->
-  <rect x="30" y="55" width="160" height="90" rx="7" fill="#455a64" stroke="#263238" stroke-width="2"/>
-  <text x="110" y="85" font-size="13" fill="white" font-weight="bold" text-anchor="middle">YM</text>
-  <text x="110" y="103" font-size="10" fill="#cfd8dc" text-anchor="middle">Yapi Merkezi</text>
-  <text x="110" y="118" font-size="10" fill="#cfd8dc" text-anchor="middle">튀르키예 3대 건설사</text>
-  <text x="110" y="134" font-size="11" fill="#ffcc80" font-weight="bold" text-anchor="middle">50% ($142.5M)</text>
+  <rect x="30" y="60" width="160" height="100" rx="7" fill="#455a64" stroke="#263238" stroke-width="2"/>
+  <text x="110" y="88" font-size="13" fill="white" font-weight="bold" text-anchor="middle">YM</text>
+  <text x="110" y="106" font-size="10" fill="#cfd8dc" text-anchor="middle">Yapi Merkezi</text>
+  <text x="110" y="121" font-size="10" fill="#cfd8dc" text-anchor="middle">튀르키예 3대 건설사</text>
+  <text x="110" y="148" font-size="11" fill="#ffcc80" font-weight="bold" text-anchor="middle">50% ($142.5M)</text>
 
-  <!-- SK Holdco 박스 (오른쪽, 큰 박스) -->
-  <rect x="380" y="45" width="310" height="120" rx="7" fill="#1565c0" stroke="#0d47a1" stroke-width="2.5"/>
-  <text x="535" y="68" font-size="12" fill="white" font-weight="bold" text-anchor="middle">SK Holdco. (EP/가스/MENA)</text>
-  <text x="535" y="87" font-size="10" fill="#bbdefb" text-anchor="middle">보통주 $72.7M</text>
-  <!-- SKEP 보통주 -->
-  <rect x="390" y="93" width="80" height="32" rx="4" fill="#0d47a1" stroke="#bbdefb" stroke-width="1"/>
-  <text x="430" y="108" font-size="9.5" fill="white" text-anchor="middle" font-weight="bold">SKEP</text>
-  <text x="430" y="121" font-size="9" fill="#bbdefb" text-anchor="middle">51%/$72.7M</text>
+  <!-- ─────────────── SK Holdco 전체 박스 ─────────────── -->
+  <rect x="240" y="48" width="500" height="180" rx="8" fill="#1565c0" stroke="#0d47a1" stroke-width="2.5"/>
+  <text x="490" y="70" font-size="13" fill="white" font-weight="bold" text-anchor="middle">SK Holdco. (EP/가스/MENA)</text>
+
+  <!-- 보통주 라벨 -->
+  <text x="320" y="92" font-size="10.5" fill="#bbdefb" font-weight="bold" text-anchor="middle">보통주 $72.7M</text>
+  <!-- SKEP 보통주 박스 -->
+  <rect x="258" y="98" width="124" height="56" rx="5" fill="#0d47a1" stroke="#bbdefb" stroke-width="1.5"/>
+  <text x="320" y="120" font-size="12" fill="white" text-anchor="middle" font-weight="bold">SKEP</text>
+  <text x="320" y="136" font-size="10" fill="#bbdefb" text-anchor="middle">51% / $72.7M</text>
+  <text x="320" y="149" font-size="8.5" fill="#90caf9" text-anchor="middle">(보통주)</text>
+
+  <!-- 우선주 라벨 -->
+  <text x="565" y="92" font-size="10.5" fill="#ffcc80" font-weight="bold" text-anchor="middle">우선주 $69.8M (= 매각 대상 100%)</text>
+
+  <!-- 우선주 그룹 점선 박스 (매각대상 100%) -->
+  <rect x="402" y="98" width="328" height="100" rx="6" fill="rgba(255,235,238,0.08)" stroke="#ff5252" stroke-width="2.5" stroke-dasharray="6,3"/>
+
   <!-- SKEP 우선주 -->
-  <rect x="478" y="93" width="74" height="32" rx="4" fill="#0d47a1" stroke="#bbdefb" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="515" y="108" font-size="9.5" fill="white" text-anchor="middle">SKEP</text>
-  <text x="515" y="121" font-size="9" fill="#bbdefb" text-anchor="middle">5.5%/$7.8M</text>
-  <!-- SK가스 우선주 (매각대상, 강조) -->
-  <rect x="558" y="88" width="78" height="42" rx="4" fill="#c62828" stroke="#ff5252" stroke-width="2"/>
-  <text x="597" y="104" font-size="9.5" fill="white" text-anchor="middle" font-weight="bold">SK가스</text>
-  <text x="597" y="117" font-size="9" fill="#ffcdd2" text-anchor="middle">36.5%/$52M</text>
-  <text x="597" y="128" font-size="8" fill="#ff8a80" text-anchor="middle">우선주</text>
-  <!-- SKMENA -->
-  <rect x="642" y="93" width="40" height="32" rx="4" fill="#0d47a1" stroke="#bbdefb" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="662" y="107" font-size="9" fill="white" text-anchor="middle">MENA</text>
-  <text x="662" y="120" font-size="8.5" fill="#bbdefb" text-anchor="middle">7%/$10M</text>
-  <!-- SK Holdco 합계 -->
-  <text x="535" y="155" font-size="11" fill="#ffcc80" font-weight="bold" text-anchor="middle">50% ($142.5M)</text>
+  <rect x="412" y="115" width="100" height="56" rx="5" fill="#0d47a1" stroke="#bbdefb" stroke-width="1"/>
+  <text x="462" y="137" font-size="11" fill="white" text-anchor="middle" font-weight="bold">SKEP</text>
+  <text x="462" y="153" font-size="10" fill="#bbdefb" text-anchor="middle">5.5% / $7.8M</text>
+  <text x="462" y="166" font-size="8.5" fill="#90caf9" text-anchor="middle">(우선주)</text>
 
-  <!-- 우선주 설명 -->
-  <rect x="380" y="172" width="310" height="20" rx="3" fill="#e8f5e9"/>
-  <text x="535" y="186" font-size="9.5" fill="#2e7d32" text-anchor="middle">※ 우선주는 의결권 없음 | 매각은 우선주 36.5%($52M) 대상</text>
+  <!-- SK가스 우선주 -->
+  <rect x="520" y="115" width="100" height="56" rx="5" fill="#0d47a1" stroke="#bbdefb" stroke-width="1"/>
+  <text x="570" y="137" font-size="11" fill="white" text-anchor="middle" font-weight="bold">SK가스</text>
+  <text x="570" y="153" font-size="10" fill="#bbdefb" text-anchor="middle">36.5% / $52M</text>
+  <text x="570" y="166" font-size="8.5" fill="#90caf9" text-anchor="middle">(우선주)</text>
+
+  <!-- SK MENA 우선주 -->
+  <rect x="628" y="115" width="92" height="56" rx="5" fill="#0d47a1" stroke="#bbdefb" stroke-width="1"/>
+  <text x="674" y="137" font-size="11" fill="white" text-anchor="middle" font-weight="bold">SK MENA</text>
+  <text x="674" y="153" font-size="10" fill="#bbdefb" text-anchor="middle">7% / $10M</text>
+  <text x="674" y="166" font-size="8.5" fill="#90caf9" text-anchor="middle">(우선주)</text>
+
+  <!-- "매각대상" 라벨 -->
+  <text x="566" y="190" font-size="10" fill="#ff8a80" text-anchor="middle" font-weight="bold">→ SK Holdco 내 우선주 100% 일괄 매각 대상</text>
+
+  <!-- SK Holdco 50% 합계 -->
+  <text x="490" y="219" font-size="12" fill="#ffcc80" font-weight="bold" text-anchor="middle">SK Holdco 합계: 50% ($142.5M)</text>
+
+  <!-- 우선주 의결권 메모 -->
+  <rect x="240" y="237" width="500" height="20" rx="3" fill="#e8f5e9"/>
+  <text x="490" y="251" font-size="9.5" fill="#2e7d32" text-anchor="middle">※ 우선주는 의결권 없음 | 매각 대상은 SKEP·SK가스·SKMENA 우선주 합계 $69.8M 일괄</text>
 
   <!-- YM → ATAS 화살표 -->
-  <line x1="190" y1="130" x2="240" y2="260" stroke="#78909c" stroke-width="2.5" marker-end="url(#atas-gy)"/>
-  <text x="196" y="200" font-size="11" fill="#546e7a" font-weight="600">50%</text>
+  <line x1="190" y1="140" x2="280" y2="305" stroke="#78909c" stroke-width="2.5" marker-end="url(#atas-gy)"/>
+  <text x="200" y="240" font-size="11" fill="#546e7a" font-weight="600">50%</text>
 
   <!-- SK Holdco → ATAS 화살표 -->
-  <line x1="490" y1="165" x2="400" y2="260" stroke="#1565c0" stroke-width="2.5" marker-end="url(#atas-bl)"/>
-  <text x="460" y="222" font-size="11" fill="#1565c0" font-weight="600">50%</text>
+  <line x1="430" y1="228" x2="400" y2="305" stroke="#1565c0" stroke-width="2.5" marker-end="url(#atas-bl)"/>
+  <text x="430" y="280" font-size="11" fill="#1565c0" font-weight="600">50%</text>
 
-  <!-- ATAS 박스 (중앙 하단) -->
-  <rect x="200" y="260" width="230" height="80" rx="7" fill="#283593" stroke="#1a237e" stroke-width="2.5"/>
-  <text x="315" y="290" font-size="15" fill="white" font-weight="bold" text-anchor="middle">ATAS (유라시아 JV)</text>
-  <text x="315" y="308" font-size="10" fill="#c5cae9" text-anchor="middle">이스탄불 보스포루스 해저터널 운영</text>
-  <text x="315" y="325" font-size="10" fill="#9fa8da" text-anchor="middle">CAPEX: $1,245M | '17년 상업개시</text>
+  <!-- ATAS 박스 -->
+  <rect x="220" y="305" width="240" height="80" rx="7" fill="#283593" stroke="#1a237e" stroke-width="2.5"/>
+  <text x="340" y="335" font-size="15" fill="white" font-weight="bold" text-anchor="middle">ATAS (유라시아 JV)</text>
+  <text x="340" y="353" font-size="10" fill="#c5cae9" text-anchor="middle">이스탄불 보스포루스 해저터널 운영</text>
+  <text x="340" y="370" font-size="10" fill="#9fa8da" text-anchor="middle">CAPEX: $1,245M | '17년 상업개시</text>
 
   <!-- ATAS Equity/Debt 박스 -->
-  <rect x="55" y="270" width="110" height="60" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/>
-  <text x="110" y="292" font-size="10" fill="#0d47a1" text-anchor="middle" font-weight="bold">Equity</text>
-  <text x="110" y="308" font-size="11" fill="#1565c0" text-anchor="middle" font-weight="bold">23% / $285M</text>
-  <text x="110" y="322" font-size="9" fill="#1976d2" text-anchor="middle">YM+SK Holdco</text>
+  <rect x="55" y="305" width="120" height="62" rx="5" fill="#e3f2fd" stroke="#1565c0" stroke-width="1"/>
+  <text x="115" y="328" font-size="10" fill="#0d47a1" text-anchor="middle" font-weight="bold">Equity</text>
+  <text x="115" y="344" font-size="11" fill="#1565c0" text-anchor="middle" font-weight="bold">23% / $285M</text>
+  <text x="115" y="358" font-size="9" fill="#1976d2" text-anchor="middle">YM+SK Holdco</text>
 
-  <rect x="55" y="340" width="110" height="60" rx="5" fill="#fce4ec" stroke="#c62828" stroke-width="1"/>
-  <text x="110" y="362" font-size="10" fill="#b71c1c" text-anchor="middle" font-weight="bold">Debt (PF)</text>
-  <text x="110" y="378" font-size="11" fill="#c62828" text-anchor="middle" font-weight="bold">77% / $960M</text>
-  <text x="110" y="392" font-size="9" fill="#e53935" text-anchor="middle">'25년말 $4.5억 잔액</text>
+  <rect x="55" y="377" width="120" height="62" rx="5" fill="#fce4ec" stroke="#c62828" stroke-width="1"/>
+  <text x="115" y="400" font-size="10" fill="#b71c1c" text-anchor="middle" font-weight="bold">Debt (PF)</text>
+  <text x="115" y="416" font-size="11" fill="#c62828" text-anchor="middle" font-weight="bold">77% / $960M</text>
+  <text x="115" y="430" font-size="9" fill="#e53935" text-anchor="middle">'25년말 잔액 $4.5억</text>
 
-  <!-- 차입잔액 화살표 -->
-  <line x1="165" y1="300" x2="200" y2="300" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="4,2"/>
-  <line x1="165" y1="370" x2="200" y2="330" stroke="#c62828" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <!-- 화살표 -->
+  <line x1="175" y1="336" x2="220" y2="336" stroke="#1565c0" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="175" y1="408" x2="220" y2="370" stroke="#c62828" stroke-width="1.5" stroke-dasharray="4,2"/>
 
   <!-- 대주단 박스 -->
-  <rect x="460" y="260" width="240" height="180" rx="7" fill="#f5f5f5" stroke="#90a4ae" stroke-width="1.5"/>
-  <text x="580" y="282" font-size="11" fill="#37474f" text-anchor="middle" font-weight="bold">대주단 (10)</text>
+  <rect x="490" y="305" width="250" height="195" rx="7" fill="#f5f5f5" stroke="#90a4ae" stroke-width="1.5"/>
+  <text x="615" y="327" font-size="11" fill="#37474f" text-anchor="middle" font-weight="bold">대주단 (10)</text>
 
-  <!-- 유럽계 -->
-  <rect x="470" y="290" width="100" height="68" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1"/>
-  <text x="520" y="308" font-size="10" fill="#546e7a" text-anchor="middle" font-weight="bold">유럽계 (5)</text>
-  <text x="520" y="322" font-size="9" fill="#78909c" text-anchor="middle">EIB · EBRD</text>
-  <text x="520" y="335" font-size="9" fill="#78909c" text-anchor="middle">터키계 (3)</text>
-  <text x="520" y="348" font-size="8.5" fill="#90a4ae" text-anchor="middle">(총 5개)</text>
+  <rect x="500" y="335" width="110" height="72" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1"/>
+  <text x="555" y="353" font-size="10" fill="#546e7a" text-anchor="middle" font-weight="bold">유럽계 (5)</text>
+  <text x="555" y="370" font-size="9" fill="#78909c" text-anchor="middle">EIB · EBRD</text>
+  <text x="555" y="384" font-size="9" fill="#78909c" text-anchor="middle">터키계 (3)</text>
+  <text x="555" y="398" font-size="8.5" fill="#90a4ae" text-anchor="middle">(총 5개)</text>
 
-  <!-- 아시아계 -->
-  <rect x="588" y="290" width="102" height="68" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1"/>
-  <text x="639" y="308" font-size="10" fill="#546e7a" text-anchor="middle" font-weight="bold">아시아계 (5)</text>
-  <text x="639" y="322" font-size="9" fill="#78909c" text-anchor="middle">KEXIM · KSURE</text>
-  <text x="639" y="335" font-size="9" fill="#78909c" text-anchor="middle">SMBC · Mizuho</text>
-  <text x="639" y="348" font-size="9" fill="#78909c" text-anchor="middle">SC</text>
+  <rect x="618" y="335" width="112" height="72" rx="4" fill="#fff" stroke="#b0bec5" stroke-width="1"/>
+  <text x="674" y="353" font-size="10" fill="#546e7a" text-anchor="middle" font-weight="bold">아시아계 (5)</text>
+  <text x="674" y="370" font-size="9" fill="#78909c" text-anchor="middle">KEXIM · KSURE</text>
+  <text x="674" y="384" font-size="9" fill="#78909c" text-anchor="middle">SMBC · Mizuho</text>
+  <text x="674" y="398" font-size="9" fill="#78909c" text-anchor="middle">SC</text>
 
-  <!-- 법무법인 -->
-  <rect x="470" y="366" width="220" height="26" rx="4" fill="#e8f5e9" stroke="#81c784" stroke-width="1"/>
-  <text x="580" y="383" font-size="9.5" fill="#2e7d32" text-anchor="middle">지정 법무법인: Clifford Chance</text>
+  <rect x="500" y="415" width="230" height="26" rx="4" fill="#e8f5e9" stroke="#81c784" stroke-width="1"/>
+  <text x="615" y="432" font-size="9.5" fill="#2e7d32" text-anchor="middle">지정 법무법인: Clifford Chance</text>
 
-  <!-- '30년 PF 상환 메모 -->
-  <rect x="470" y="400" width="220" height="26" rx="4" fill="#fff8e1" stroke="#ffca28" stroke-width="1"/>
-  <text x="580" y="417" font-size="9.5" fill="#e65100" text-anchor="middle">'30년 상반기 PF 상환 완료 후 재매각 추진</text>
+  <rect x="500" y="448" width="230" height="42" rx="4" fill="#fff8e1" stroke="#ffca28" stroke-width="1"/>
+  <text x="615" y="464" font-size="9.5" fill="#e65100" text-anchor="middle" font-weight="bold">'30년 상반기 PF 상환 완료 예정</text>
+  <text x="615" y="478" font-size="9" fill="#bf360c" text-anchor="middle">→ 해당 시점부터 매각 재타진 / 배당 개시</text>
 
-  <!-- ATAS → 대주단 화살표 (Debt) -->
-  <line x1="430" y1="300" x2="460" y2="300" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#atas-gy)"/>
+  <line x1="460" y1="336" x2="490" y2="336" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#atas-gy)"/>
+
+  <!-- 하단 메모 -->
+  <text x="380" y="520" font-size="9" fill="#90a4ae" text-anchor="middle" font-style="italic">출처: '22.6월 이사회 보고자료 — 유라시아 SPC(ATAS) 이해관계자 현황</text>
 </svg>`;
 }
 
