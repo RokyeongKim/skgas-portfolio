@@ -191,7 +191,7 @@
       "bod_participation": null,
       "bod": [],
       "investment_purpose": "APOC 투자를 위해 설립된 SPC(페이퍼컴퍼니). SKG→SKGI→SKGP 경로로 출자.",
-      "equity_structure": "SKGI 100% 보유\n※ SKA 지분 30% 보유 (향후 SKG로 양도 예정, 시점 미정)",
+      "equity_structure": "SKGI 100% 보유\n※ SKA 지분 30% 보유 (향후 SKG로 양도 후 청산 계획, 시점 미정)",
       "exit_plan": "'26.3 APOC 풋옵션 행사 완료로 SKGP의 실질적 역할 소멸(APOC 투자를 위한 Vehicle), 유지 or 청산 등 향후 방향 SKGI 확인 필요",
       "strategy": "보유",
       "rebalancing_target": false,
@@ -201,7 +201,7 @@
       "recent_issues": null,
       "last_updated": "2026-05-20",
       "contact_person": "Trading 지원그룹 박준범M",
-      "description": "APOC(사우디 PDH/PP JV) 투자를 위해 설립된 SPC. SKG→SKGI→SKGP 경로로 APOC에 출자. '26.3 APOC 풋옵션 행사 완료로 실질적 효용 소멸.\n\n※ SKA의 지분 30%를 SKGP가 보유하고 있음. 향후 SKA 지분 30%를 SKG로 양도할 계획이나, 시점은 미정."
+      "description": "APOC(사우디 PDH/PP JV) 투자를 위해 설립된 SPC. SKG→SKGI→SKGP 경로로 APOC에 출자. '26.3 APOC 풋옵션 행사 완료로 실질적 효용 소멸.\n\n※ SKA의 지분 30%를 SKGP가 보유하고 있음. 향후 SKA 지분 30%를 SKG로 양도 후 청산 계획이나, 시점은 미정."
     },
     {
       "id": "apoc",
