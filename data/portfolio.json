@@ -4,7 +4,7 @@
     "equity_ratio_as_of": "2026-04 (보통주 기준)",
     "book_value_as_of": "2025-12 (연결 장부가액 기준)",
     "unit": "억원",
-    "last_updated": "2026-06-21",
+    "last_updated": "2026-06-28",
     "minor_holdings": [
       {
         "name": "I.net",
@@ -38,7 +38,7 @@
       "bod": [
         {
           "role": "대표이사",
-          "name": "김철진"
+          "name": "김한조"
         },
         {
           "role": "이사",
@@ -64,7 +64,7 @@
       "recent_issues": "• 중동주주(AGIC·PIC)와의 견해 차이로 의사결정·실행 지연\n• 증자·영구채·신용보강 등 유동성 대응·EOD 방지 대책에 미동의\n• 지배구조 Controllability 확보 위해 AGIC·PIC 지분 인수 결정\n• PIC '26.2 Exit, AGIC '26.4 Exit → SK가스 100%\n\n<div class='extra-issue'><b>【'26.5 구조개편 진행 상황 — 3가지 옵션 검토 중】</b>\n\n<b>Option A)</b> UPP 일반주식 지분 무상이관 → UPP를 PMC의 100% 자회사로 전환 → SKA는 SK가스와 통합<br>\n• UPP 금융부채 2,400억원: SKG·PMC가 1,200억씩 부담, SKA 미지급 PP대금(매출채권) 600억도 절반씩 부담 → SK가스 총 1,500억원 부담 요청<br>\n• SK가스는 금융부채 1,200억원만 부담 가능 입장 → <b>이견 존재</b><br>\n<i>※ LYB가 Option A를 검토하는 배경: PMC PP라인 4개(70만톤) 중 4번 라인(20만톤)을 고부가PP설비로 전환하고, 해당 물량을 UPP로 이관(UPP=범용 중심·PMC=고부가 중심으로 개편)하려는 전략. ⚠️ 일부 내용 추가 확인 필요</i>\n\n<b>Option B)</b> Hard Exit: PMC와 협의 불발 시 UPP 유상증자 미참여 → UPP 청산<br>\n• UPP 청산 시 Relocation이 어려워질 수 있음. ⚠️ 상세 내용 추가 확인 필요\n\n<b>Option C)</b> Relocation: 사우디 등 중동 이전<br>\n• 경제성 확보를 위한 사우디 정부의 프로판 저가 공급 허가 협상 지연 중<br>\n• 가격 메리트 확보 어려운 상황. APC와 협의 진행 중. ⚠️ 일부 내용 추가 확인 필요</div>",
       "last_updated": "2026-05-27",
       "contact_person": "기획팀 이우식M (SKA), 기획팀 이우식M (UPP)",
-      "description": "• PDH(프로판 탈수소화)를 통한 프로필렌 생산\n• 법인 설립 2014년, 공장 가동 2016년~\n• 총 투자비 9,702억 (D:E=6:4)\n• '26.4 중동주주(AGIC·PIC) 지분 전량 인수 → SK가스 100% 전환\n• UPP(울산PP) 이사진: 손철승, 김철진"
+      "description": "• PDH(프로판 탈수소화)를 통한 프로필렌 생산\n• 법인 설립 2014년, 공장 가동 2016년~\n• 총 투자비 9,702억 (D:E=6:4)\n• '26.4 중동주주(AGIC·PIC) 지분 전량 인수 → SK가스 100% 전환\n• UPP(울산PP) 이사진: 손철승, 김한조, 김규웅, 이동훈"
     },
     {
       "id": "sk-gas-usa",
@@ -189,7 +189,16 @@
       "location": "싱가포르",
       "website": null,
       "bod_participation": null,
-      "bod": [],
+      "bod": [
+        {
+          "role": "이사",
+          "name": "김한조"
+        },
+        {
+          "role": "이사",
+          "name": "안정근"
+        }
+      ],
       "investment_purpose": "APOC 투자를 위해 설립된 SPC(페이퍼컴퍼니). SKG→SKGI→SKGP 경로로 출자.",
       "equity_structure": "SKGI 100% 보유\n※ SKA 지분 30% 보유 (향후 SKG로 양도 후 청산 계획, 시점 미정)",
       "exit_plan": "'26.3 APOC 풋옵션 행사 완료로 SKGP의 실질적 역할 소멸(APOC 투자를 위한 Vehicle), 유지 or 청산 등 향후 방향 SKGI 확인 필요",
@@ -245,51 +254,52 @@
       "sector": "LPG",
       "type": "해외계열사",
       "parent_id": "sk-gas-intl",
-      "book_value": null,
+      "book_value": 96,
       "equity_ratio": 20,
-      "investment_date": null,
-      "invested_amount": null,
-      "location": "울산광역시 (Vopak Terminal Korea)",
+      "investment_date": "2014.5",
+      "invested_amount": 133,
+      "location": "싱가포르 주롱섬",
       "website": null,
       "bod_participation": null,
       "bod": [],
-      "investment_purpose": null,
-      "equity_structure": "Vopak 80%, SK가스 20%",
-      "exit_plan": "대주주(Vopak)과 논의 필요(3자 매각 어려움)",
+      "investment_purpose": "글로벌 탱크회사 Vopak과 합작으로 싱가포르 주롱섬 내 LPG 터미널 JV 설립. 석화용 LPG 수요 증가 전망에 따라 싱가포르 C3 수입터미널 사업 참여, 중장기적으로 싱가포르 Cracker 및 JAC향 가압 수출 전개 목적.",
+      "equity_structure": "Vopak 80% · SK가스(SKGI) 20%\n※ 총 투자비 USD $61M 중 SKGI 투자비 USD $12.2M (약 133억원)",
+      "exit_plan": "Partnership Agreement(LLP) 독소조항으로 Vopak 외 매각 사실상 불가 → Vopak과의 협의 필수. ~'26년까지 Exxon 계약 유지되는 동안 매년 지분법 손실 예상되어 '26년 장부가액은 USD $7.0M 전망. '26년 이후 싱가포르 C4 수요 36% 감소 예상되어 손실폭 확대 가능성.",
       "strategy": "Exit",
       "rebalancing_target": true,
-      "exit_target_year": 2029,
+      "exit_target_year": 2026,
       "exit_status": "매각 예정",
-      "exit_pending_reason": "대주주(Vopak)와의 협의 필요",
-      "recent_issues": "• '25년 4분기 Vopak, 한국 터미널 사업 매각 완료 (EUR 15M 손실 기록)\n• SK가스 보유 20% 지분 처리 여부 별도 확인 필요",
-      "last_updated": "2026-05-13",
-      "description": "글로벌 저장탱크 운영사 Vopak과 SK가스의 합작 국내 최대 액체화물 저장 터미널. 석유화학제품 저장·물류 서비스 제공."
+      "exit_pending_reason": "Partnership Agreement 독소조항으로 Vopak 동의 필수 — 3자 매각 사실상 불가",
+      "recent_issues": "• '21년 기존 고객 터미널 이용계약 종료로 적자 전환 → 지분법 손실 $36K('21) → $758K('22)\n• '22년 C3 → C4 탱크로 전환, Exxon Mobil 계약체결·PCS Spot 거래로 손실 일부 축소\n• 재무: 당기순손실 -$549K('21) → -$5,513K('22) → -$1,848K('23), 부채비율 12%→18% 악화\n• Cash Balance: Net -$16M cash-out / 회계상 SKGI 장부가액 $7.3M ('24.2Q 기준)\n• Exxon 임차계약 ~'26.3 종료 예정 → '25 4Q 계약갱신 협의, 손상차손 등 Value 하락 가능성\n• 빠른 Exit 필요하나 LLP 독소조항으로 Vopak 외 매수자 확보 어려움 (법무실 검토 결과)",
+      "last_updated": "2026-06-28",
+      "description": "SKGI가 '14.5월 USD $12.2M(약 133억원, 지분 20%) 투자한 싱가포르 주롱섬 LPG 터미널 JV. Vopak 80% / SKGI 20% 구조. '21년 기존 User 계약 종료 후 적자 전환, '22년 C3→C4 탱크 전환 통해 Exxon Mobil과 계약체결로 손실 일부 축소했으나 영업손실은 지속. Partnership Agreement 독소조항으로 3자 매각 사실상 불가."
     },
     {
       "id": "sk-intl-inv-sg",
-      "name": "SK International Investment Singapore Pte Ltd",
+      "name": "SK International Investment Singapore Pte Ltd (SKIIS)",
       "sector": "LPG",
       "type": "해외계열사",
       "parent_id": "sk-gas-intl",
       "book_value": null,
       "equity_ratio": 8.33,
-      "investment_date": null,
-      "invested_amount": null,
+      "investment_date": "2010.4",
+      "invested_amount": 159,
       "location": "싱가포르 주롱섬",
       "website": null,
       "bod_participation": null,
       "bod": [],
-      "investment_purpose": null,
-      "equity_structure": null,
-      "exit_plan": "SKEP 주도로 청산작업 진행 중. SK건설 소송 종결 전까지 Wait&See.",
+      "investment_purpose": "싱가포르 주롱섬 내 석유화학단지 조성사업(JAC, Jurong Aromatic Corp.)에 LPG off-take 목적으로 지분참여. SKEP·SK지오센트릭과 합작투자로 JAC(석화 콤플렉스 400만톤) 부산물 LPG off-take 계약 후 동남아 가압 트레이딩 전개 의도.",
+      "equity_structure": "【SKIIS 주주】 SKEP 75% · SK지오센트릭 16.7% · SKGI 8.3%\n【JAC 주주】 SKIIS 30% · 상하이국제사업개발 25% · Arovin 10.5% · Singfuel 10% 등\n\n※ SKIIS 의결권 비율: SKGI 31.4%(우선주 8.3%) / SK지오센트릭 62.9%(우선주 16.7%) / SKEP 5.7%(보통주 75%)",
+      "exit_plan": "SKEP(최대 지분) 주도 청산 진행. SK건설 JV 파트너 및 한국보증보험-BP/Glencore 간 소송 종결로 Holding 해제, 연내 청산절차 재개·내년('27) 완료 전망.",
       "strategy": "Exit",
       "rebalancing_target": true,
-      "exit_target_year": null,
-      "exit_status": "매각 예정",
-      "exit_pending_reason": "SKEP 주도로 청산작업 진행 중",
-      "recent_issues": null,
-      "last_updated": "2026-05-13",
-      "description": "SKIIS. 싱가포르 주롱섬 400만톤 규모 석유화학공장(JAC) 건설 투자. SK건설 소송 진행 중으로 소송 종결 전까지 Wait&See."
+      "exit_target_year": 2027,
+      "exit_status": "청산 진행 중",
+      "exit_pending_reason": "SKEP 주도 청산절차 재개 — '27년 완료 예정",
+      "recent_issues": "• '15년 JAC 시황악화·이자비용 등 유동성 문제로 법정관리, 참여사 투자액 전액 손상처리\n• JAC 자산은 경매 통해 Exxon Mobil이 매입\n• 법적 분쟁 종결로 청산 재개 — 향후 절차·일정은 연내 관계사 공유 예정\n• 그룹 담당: SKEP CSO 투자관리기획 정주한 프로 (010-5386-1371, jung3317@sk.com)",
+      "last_updated": "2026-06-28",
+      "contact_person": "SKGI Trading Value 박준범M (65-9654-3097, junbeom.park1@sk.com)",
+      "description": "SKIIS. SK가스 '10.4월 159억 투자(지분 8.3%). 싱가포르 주롱섬 JAC(석유화학 콤플렉스 400만톤) 투자 SPC로, SK그룹사(SKEP·SK지오센트릭·SKGI) 합작. '15년 JAC 법정관리·Exxon Mobil 매각 후 SKEP 주도로 청산 진행 중."
     },
     {
       "id": "wonil-energy",
@@ -601,7 +611,7 @@
       "bod": [
         {
           "role": "이사",
-          "name": "최중환"
+          "name": "김유진"
         },
         {
           "role": "이사",
