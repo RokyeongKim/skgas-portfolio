@@ -525,7 +525,7 @@
       "parent_id": null,
       "book_value": 4528,
       "book_value_label": "종속기업",
-      "equity_ratio": 100,
+      "equity_ratio": 51,
       "investment_date": "2014~2025",
       "invested_amount": 4083,
       "location": "울산광역시",
@@ -550,17 +550,17 @@
         }
       ],
       "investment_purpose": null,
-      "equity_structure": "(KDB 풋옵션 행사 전) KDB 0.52%, SK가스 99.48%\n(현재, 풋옵션 행사 후) SK가스 100%",
+      "equity_structure": "(KDB 풋옵션 행사 전) KDB 0.52%, SK가스 99.48%\n('25.12 풋옵션 행사 후) SK가스 100%\n('26.07.01부) SK가스 51% · 스틱한투인프라사모투자합자회사 49%",
       "exit_plan": null,
       "strategy": "보유",
       "rebalancing_target": false,
       "exit_target_year": null,
       "exit_status": null,
       "exit_pending_reason": null,
-      "recent_issues": "【'25년 실적】\n• 매출 7,601억 / 세전이익 1,304억\n• 가동준비율 73% / 낙찰률 76%\n\n【'26년 계획】\n• 매출 8,393억 / 세전이익 1,725억\n• 가동준비율 90% / 낙찰률 68%\n\n【지분 변동】\n• '25.11 KDB 풋옵션 행사 신청 → '25.12 완료\n• SK가스→KDB 336억 지급, 지분 100% 확대<div class='extra-issue'>지분 일부 매각 중(5/29 deal 종결)이나 경영권 유지 예정</div>",
-      "last_updated": "2026-05-13",
+      "recent_issues": "【'25년 실적】\n• 매출 7,601억 / 세전이익 1,304억\n• 가동준비율 73% / 낙찰률 76%\n\n【'26년 계획】\n• 매출 8,393억 / 세전이익 1,725억\n• 가동준비율 90% / 낙찰률 68%\n\n【지분 변동】\n• '25.11 KDB 풋옵션 행사 신청 → '25.12 완료\n• SK가스→KDB 336억 지급, 지분 100% 확대\n• '26.07.01부 지분 49% 매각 → SK가스 51% 보유 (경영권 유지)\n  - 인수자: 스틱한투인프라사모투자합자회사\n  - 매각대금: 1조 2,242억원",
+      "last_updated": "2026-06-30",
       "contact_person": "UGPS 최민영M",
-      "description": "울산지피에스(UGPS). LNG·LPG 복합 연료 가스 발전소(1,227MW) 운영. '25.12 KDB 풋옵션 행사로 SK가스 100%."
+      "description": "울산지피에스(UGPS). LNG·LPG 복합 연료 가스 발전소(1,227MW) 운영. '26.07.01부 지분 49% 매각(스틱한투인프라PEF, 1조 2,242억원), SK가스 51% 경영권 유지."
     },
     {
       "id": "goseong-green",
@@ -1224,16 +1224,16 @@
       "bod_participation": null,
       "bod": [],
       "investment_purpose": null,
-      "equity_structure": null,
+      "equity_structure": "【현재 주주구성 (보통주식 / 출자금액)】\n• 현대자동차: 3,937,000주 / 196.85억원 (최대주주)\n• 한난: 1,334,000주 / 66.7억원\n• SK에너지: 437,000주 / 21.85억원\n• GS칼텍스: 437,000주 / 21.85억원\n• 에스오일: 437,000주 / 21.85억원\n• 현대오일뱅크: 437,000주 / 21.85억원\n• SK가스: 437,000주 / 21.85억원\n• E1: 437,000주 / 21.85억원\n• 에어리퀴드: 437,000주 / 21.85억원",
       "exit_plan": "수소시장 본격 개화 시점에 현대차 대상 지분 매각 시도 예정 (Exit 가능성 Low).",
       "strategy": "Exit",
       "rebalancing_target": true,
       "exit_target_year": 2029,
       "exit_status": "매각 예정",
       "exit_pending_reason": "수소시장 본격 개화 지연으로 인수의향자 부재",
-      "recent_issues": null,
-      "last_updated": "2026-05-13",
-      "description": "정부·대기업 공동 출자 수소충전소 구축·운영 전문 기업. 기 투자금 약 22억."
+      "recent_issues": "【자금조달 추진 중】\n• 키플렉스 제네시스(PE)에서 500억원 신주발행 투자 의사 표명\n• 투자 방식: RCPS\n• 현재 주주사간 협의 진행 중\n• 투자 확정 시 최대주주가 현대자동차 → 키플렉스 제네시스로 변경 예정",
+      "last_updated": "2026-06-30",
+      "description": "정부·대기업 공동 출자 수소충전소 구축·운영 전문 기업. 기 투자금 약 22억. 키플렉스 제네시스(PE) 500억원 RCPS 신주발행 투자 협의 중(최대주주 변경 예정)."
     },
     {
       "id": "hyliom-rcps",
